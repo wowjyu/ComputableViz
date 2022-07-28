@@ -1,0 +1,44 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple pie chart with labels.",
+  "data": {
+    "values": [
+      {"country": "Other", "share": 0.315, "year": 2017},
+      {"country": "China", "share": 0.294, "year": 2017},
+      {"country": "US", "share": 0.143, "year": 2017},
+      {"country": "EU", "share": 0.09, "year": 2017},
+      {"country": "India", "share": 0.068, "year": 2017},
+      {"country": "Russia", "share": 0.049, "year": 2017},
+      {"country": "Japan", "share": 0.035, "year": 2017}
+    ]
+  },
+  "encoding": {
+    "theta": {"field": "share", "type": "quantitative", "stack": true},
+    "order": {"field": "share", "type": "quantitative", "sort": "descending"}
+  },
+  "layer": [
+    {
+      "mark": {"type": "arc", "outerRadius": 80},
+      "encoding": {
+        "color": {
+          "field": "country",
+          "type": "nominal",
+          "legend": null,
+          "sort": null
+        }
+      }
+    },
+    {
+      "mark": {"type": "text", "radius": 100},
+      "encoding": {"text": {"field": "country", "type": "nominal"}}
+    },
+    {
+      "mark": {"type": "text", "radius": 55},
+      "encoding": {
+        "text": {"field": "share", "type": "quantitative", "format": ".1%"}
+      }
+    }
+  ],
+  "view": {"stroke": null},
+  "config": {}
+}

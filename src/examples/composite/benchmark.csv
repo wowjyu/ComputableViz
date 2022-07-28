@@ -1,0 +1,25 @@
+task,chart1,chart2,result
+Chart-wise Juxtaposition (adjacent), vbar_colored_us_gross_mean_source, vbar_colored_worldwide_gross_mean_source, Y
+Superposition, heatmap_colored_variable_1_variable_2_correlation_1, heatmap_colored_variable_1_variable_2_correlation_2, cannot change mark
+Chart-wise Juxtaposition (stacked),  ,  , Y
+Superposition, vbar_colored_us_gross_mean_source, vbar_colored_worldwide_gross_mean_source, Y
+Chart-wise Juxtaposition (adjacent mirror), heatmap_colored_variable_1_variable_2_correlation_1, heatmap_colored_variable_1_variable_2_correlation_2, cannot support mirror
+Chart-wise Juxtaposition (adjacent), hbar_colored_us_gross_max_source, hbar_colored_worldwide_gross_max_source, Y
+Chart-wise Juxtaposition (adjacent), heatmap_colored_variable_1_variable_2_correlation_1, heatmap_colored_variable_1_variable_2_correlation_2, Y
+Chart-wise Juxtaposition (adjacent), heatmap_colored_variable_1_variable_2_correlation_1, heatmap_colored_variable_1_variable_2_correlation_2, Y
+Chart-wise Juxtaposition (stacked mirrored), vbar_colored_us_gross_mean_source, vbar_colored_worldwide_gross_mean_source, cannot support mirror
+Chart-wise Juxtaposition (stacked mirrored), hbar_colored_us_gross_max_source, hbar_colored_worldwide_gross_max_source, cannot support mirror
+Chart-wise Juxtaposition (stacked mirrored), scatter_colored_us_gross_imdb_rating_major_genre, scatter_colored_worldwide_gross_imdb_rating_major_genre, cannot support mirror
+Chart-wise Juxtaposition (diagonal mirrored), heatmap_colored_variable_1_variable_2_correlation_1, heatmap_colored_variable_1_variable_2_correlation_2, cannot support mirror
+Chart-wise Juxtaposition (diagonal mirrored), heatmap_colored_variable_1_variable_2_correlation_1, heatmap_colored_variable_1_variable_2_correlation_2, cannot support mirror
+Superposition (scatter), scatter_colored_us_gross_imdb_rating_major_genre, scatter_colored_worldwide_gross_imdb_rating_major_genre, Y
+Superposition (vbar), vbar_colored_us_gross_mean_source, vbar_colored_worldwide_gross_mean_source, Y
+Superposition (hbar), hbar_colored_us_gross_mean_source, hbar_colored_worldwide_gross_mean_source, Y
+Item-wise Juxtaposition (stacked), vbar_colored_us_gross_mean_source, vbar_colored_worldwide_gross_mean_source, Y
+Item-wise Juxtaposition (adjacent), vbar_colored_us_gross_mean_source, vbar_colored_worldwide_gross_mean_source, group_bar_chart
+Item-wise Juxtaposition (adjacent), vbar_colored_us_gross_mean_source, vbar_colored_worldwide_gross_mean_source, group_bar_chart
+Superposition (hbar), hbar_colored_us_gross_mean_source, hbar_colored_worldwide_gross_mean_source, Y
+Item-wise Juxtaposition (stacked hbar), hbar_colored_us_gross_mean_source, hbar_colored_worldwide_gross_mean_source, Y
+Superposition (scatter), scatter_colored_us_gross_imdb_rating_major_genre, scatter_colored_worldwide_gross_imdb_rating_major_genre, Y
+Item-wise Juxtaposition (stacked heatmap), heatmap_colored_variable_1_variable_2_correlation_1, heatmap_colored_variable_1_variable_2_correlation_2, cannot change mark
+Item-wise Juxtaposition (diagonal heatmap), heatmap_colored_variable_1_variable_2_correlation_1, heatmap_colored_variable_1_variable_2_correlation_2, cannot change mark

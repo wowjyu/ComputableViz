@@ -1,0 +1,933 @@
+CylYr -> bind "+" fields "+" type
+Cylinders -> input "+" max "+" min "+" step
+Year -> input "+" max "+" min "+" step
+aggregate -> "count"
+aggregate -> "distinct"
+aggregate -> "max"
+aggregate -> "mean"
+aggregate -> "median"
+aggregate -> "min"
+aggregate -> "sum"
+aggregate -> argmax
+alex -> on "+" translate "+" type
+align -> "left"
+align -> "right"
+and -> "['alex', 'morgan']"
+angle -> expr
+angle -> field "+" scale "+" type
+argmax -> "US Gross"
+aria -> "False"
+axis -> "None"
+axis -> bandPosition "+" domain "+" grid "+" labelAlign "+" labelBaseline "+" labelOffset "+" labelPadding "+" ticks "+" titleAlign "+" titleAngle "+" titleX "+" titleY
+axis -> domain
+axis -> domain "+" format
+axis -> domain "+" format "+" tickSize
+axis -> domain "+" grid
+axis -> domain "+" grid "+" labels "+" ticks
+axis -> domain "+" gridColor "+" gridOpacity "+" title
+axis -> domain "+" labels "+" orient "+" ticks "+" title "+" titlePadding
+axis -> domain "+" minExtent "+" offset "+" ticks
+axis -> domainColor "+" tickColor
+axis -> domainWidth
+axis -> format
+axis -> format "+" grid
+axis -> format "+" labelAngle
+axis -> format "+" labelAngle "+" labelColor "+" labelOverlap "+" tickColor
+axis -> format "+" labelAngle "+" title
+axis -> format "+" tickCount
+axis -> format "+" title
+axis -> grid
+axis -> grid "+" tickBand
+axis -> gridDash "+" labelAlign "+" labelExpr "+" labelOffset "+" labelPadding "+" tickCount "+" tickDash "+" tickSize
+axis -> labelAlign "+" labelExpr
+axis -> labelAngle "+" orient
+axis -> labels "+" ticks "+" title
+axis -> minExtent
+axis -> tickCount
+axis -> title
+axis -> x "+" y
+axis -> zindex
+axisX -> domain "+" labelAngle "+" tickColor "+" title
+axisX -> gridDash "+" labelAlign "+" labelExpr "+" labelOffset "+" labelPadding "+" tickDash "+" tickSize
+axisX -> titleLimit
+axisY -> minExtent
+background -> "orange"
+band -> "0.5"
+band -> "0.7"
+bandPosition -> "0"
+bandSize -> "10"
+bar -> cornerRadiusTopLeft "+" cornerRadiusTopRight
+bar -> strokeWidth
+baseline -> "middle"
+bin -> "True"
+bin -> binned
+bin -> binned "+" step
+bin -> maxbins
+binSpacing -> "0"
+binSpacing -> "3"
+bind -> "legend"
+bind -> "scales"
+bind -> Cylinders "+" Year
+bind -> input
+bind -> input "+" options
+bind -> legend
+binned -> "True"
+borders -> "True"
+bounds -> "flush"
+boxplot -> median
+brush -> clear "+" init "+" type
+brush -> encodings "+" mark "+" type
+brush -> encodings "+" on "+" resolve "+" translate "+" type
+brush -> init "+" type
+brush -> resolve "+" type
+brush -> translate "+" type
+brush -> type
+brush -> type "+" zoom
+clear -> "mouseup"
+clip -> "True"
+clipHeight -> "30"
+color -> "darkgreen"
+color -> "independent"
+color -> "orange"
+color -> "red"
+color -> aggregate
+color -> aggregate "+" condition
+color -> aggregate "+" field
+color -> aggregate "+" field "+" legend "+" type
+color -> aggregate "+" field "+" title "+" type
+color -> aggregate "+" type
+color -> bin "+" field
+color -> condition
+color -> condition "+" value
+color -> datum "+" type
+color -> field
+color -> field "+" legend "+" scale
+color -> field "+" legend "+" scale "+" type
+color -> field "+" legend "+" type
+color -> field "+" scale
+color -> field "+" scale "+" title "+" type
+color -> field "+" scale "+" type
+color -> field "+" timeUnit
+color -> field "+" timeUnit "+" type
+color -> field "+" type
+color -> gradient "+" stops "+" x1 "+" x2 "+" y1 "+" y2
+color -> value
+column -> "['Body Mass (g)', 'Flipper Length (mm)', 'Beak Depth (mm)', 'Beak Length (mm)']"
+column -> "['Horsepower', 'Miles_per_Gallon']"
+column -> "['Miles_per_Gallon', 'Acceleration', 'Horsepower']"
+column -> "['distance', 'delay', 'time']"
+column -> "['temp_max', 'precipitation', 'wind']"
+column -> field
+column -> field "+" header
+column -> field "+" spacing "+" type
+column -> field "+" timeUnit
+columns -> "2"
+concat -> "[{'mark': 'bar', 'encoding': {'x': {'timeUnit': 'month', 'field': 'date', 'type': 'ordinal'}, 'y': {'aggregate': 'mean', 'field': 'precipitation'}}}, {'mark': 'bar', 'encoding': {'x': {'timeUnit': 'month', 'field': 'date', 'type': 'ordinal'}, 'y': {'aggregate': 'median', 'field': 'precipitation'}}}, {'mark': 'point', 'encoding': {'x': {'field': 'temp_min', 'bin': True}, 'y': {'field': 'temp_max', 'bin': True}, 'size': {'aggregate': 'count'}}}]"
+concat -> spacing
+condition -> "[{'selection': 'hoverbrush', 'value': 'teal'}, {'selection': 'brush', 'value': 'skyblue'}]"
+condition -> aggregate "+" selection
+condition -> field "+" legend "+" selection "+" type
+condition -> field "+" scale "+" selection "+" type
+condition -> field "+" selection "+" type
+condition -> selection "+" value
+condition -> test "+" value
+config -> aria "+" view
+config -> axis
+config -> axis "+" axisX
+config -> axis "+" concat "+" view
+config -> axis "+" view
+config -> axisX "+" axisY "+" countTitle
+config -> axisX "+" style "+" view
+config -> axisY
+config -> bar
+config -> boxplot
+config -> facet
+config -> mark
+config -> signals
+config -> text
+config -> tick
+config -> view
+content -> "data"
+cornerRadius -> "10"
+cornerRadiusBottomRight -> "8"
+cornerRadiusEnd -> "2"
+cornerRadiusTopLeft -> "3"
+cornerRadiusTopLeft -> "8"
+cornerRadiusTopRight -> "3"
+cornerRadiusTopRight -> "8"
+countTitle -> "Count"
+cursor -> "pointer"
+cursor -> "text"
+date -> "1"
+datum -> repeat
+detail -> field
+detail -> field "+" type
+domain -> "False"
+domain -> "['sun', 'fog', 'drizzle', 'rain', 'snow']"
+domain -> "[0, 360]"
+domain -> "[10, 70]"
+domain -> "[20, 40]"
+domain -> "[75, 150]"
+domainColor -> "#ddd"
+domainMax -> year
+domainMid -> "0"
+domainMid -> "3250"
+domainMin -> year
+domainWidth -> "1"
+dx -> "-5"
+dx -> "3"
+dy -> "1"
+dy -> "5"
+empty -> "all"
+empty -> "none"
+encoding -> angle "+" color "+" latitude "+" longitude "+" size
+encoding -> color
+encoding -> color "+" column "+" opacity "+" size "+" x "+" y
+encoding -> color "+" column "+" row "+" shape "+" x "+" y
+encoding -> color "+" column "+" x "+" y
+encoding -> color "+" facet "+" x "+" y
+encoding -> color "+" href "+" tooltip "+" x "+" y
+encoding -> color "+" latitude "+" longitude "+" size
+encoding -> color "+" opacity "+" tooltip "+" x "+" x2 "+" y "+" y2
+encoding -> color "+" opacity "+" x "+" y
+encoding -> color "+" order "+" x "+" y
+encoding -> color "+" row "+" shape
+encoding -> color "+" row "+" x "+" y
+encoding -> color "+" shape "+" size "+" x "+" y
+encoding -> color "+" shape "+" x "+" y
+encoding -> color "+" size "+" x "+" y
+encoding -> color "+" size "+" y
+encoding -> color "+" text "+" x "+" y
+encoding -> color "+" x
+encoding -> color "+" x "+" y
+encoding -> color "+" x "+" y "+" y2
+encoding -> column "+" opacity "+" x "+" y
+encoding -> column "+" x "+" y
+encoding -> detail "+" x "+" y
+encoding -> facet "+" x "+" y
+encoding -> latitude "+" longitude "+" size
+encoding -> opacity "+" size "+" x "+" y
+encoding -> opacity "+" x "+" y
+encoding -> opacity "+" x "+" y "+" y2
+encoding -> order "+" x "+" y
+encoding -> radius "+" theta
+encoding -> row "+" x "+" y
+encoding -> shape "+" x "+" y
+encoding -> size "+" x "+" y
+encoding -> strokeDash "+" x "+" y
+encoding -> text "+" y
+encoding -> tooltip "+" x
+encoding -> tooltip "+" x "+" y
+encoding -> x
+encoding -> x "+" x2
+encoding -> x "+" x2 "+" y
+encoding -> x "+" y
+encoding -> x "+" y "+" y2
+encoding -> y
+encodings -> "['x', 'y']"
+encodings -> "['x']"
+encodings -> "['y']"
+equal -> "1"
+equal -> date "+" month
+expr -> "angle"
+expr -> "shape"
+expr -> "size"
+expr -> "strokeWidth"
+extent -> "1.5"
+extent -> "ci"
+extent -> "min-max"
+facet -> column
+facet -> columns "+" field "+" sort "+" type
+facet -> columns "+" field "+" type
+facet -> row
+facet -> spacing
+field -> "aggregate_gross"
+field -> "geo"
+field -> "int"
+field -> "people"
+field -> "string"
+field -> repeat
+fields -> "['Cylinders', 'Origin']"
+fields -> "['Cylinders', 'Year']"
+fields -> "['Cylinders']"
+fields -> "['Origin']"
+fields -> "['X']"
+fields -> "['series']"
+fill -> "#fdbb84"
+fill -> "black"
+fill -> "white"
+fill -> "yellow"
+fillOpacity -> "0.5"
+filled -> "False"
+filled -> "True"
+format -> "%B of %Y"
+format -> "%Y"
+format -> "%b"
+format -> "%e"
+format -> "%m/%d"
+format -> ".1~%"
+format -> ".2e"
+format -> ".2f"
+format -> "d"
+format -> "s"
+frame -> "group"
+gradient -> "linear"
+grid -> "False"
+grid -> "True"
+grid -> bind "+" resolve "+" translate "+" type
+grid -> bind "+" translate "+" type
+grid -> bind "+" type
+grid -> bind "+" type "+" zoom
+gridColor -> "white"
+gridDash -> condition "+" value
+gridOpacity -> "0.25"
+hconcat -> "[{'encoding': {'x': {'field': 'Horsepower', 'type': 'quantitative'}, 'y': {'field': 'Miles_per_Gallon', 'type': 'quantitative'}}, 'layer': [{'selection': {'hover': {'type': 'single', 'on': 'mouseover', 'empty': 'none'}}, 'mark': 'point'}, {'mark': {'type': 'point', 'color': 'goldenrod'}, 'transform': [{'filter': {'selection': 'hover'}}]}]}, {'encoding': {'x': {'field': 'Horsepower', 'type': 'quantitative'}, 'y': {'field': 'Acceleration', 'type': 'quantitative'}}, 'layer': [{'selection': {'hover': {'type': 'single', 'on': 'mouseover', 'empty': 'none'}}, 'mark': 'point'}, {'mark': {'type': 'point', 'color': 'goldenrod'}, 'transform': [{'filter': {'selection': 'hover'}}]}]}]"
+hconcat -> "[{'mark': 'bar', 'encoding': {'x': {'timeUnit': 'month', 'field': 'date', 'type': 'ordinal'}, 'y': {'aggregate': 'mean', 'field': 'precipitation'}}}, {'mark': 'point', 'encoding': {'x': {'field': 'temp_min', 'bin': True}, 'y': {'field': 'temp_max', 'bin': True}, 'size': {'aggregate': 'count'}}}]"
+hconcat -> "[{'mark': 'bar', 'transform': [{'filter': {'selection': 'brush'}}], 'encoding': {'y': {'field': 'Name', 'type': 'nominal', 'axis': {'minExtent': 200, 'title': None}, 'sort': '-x'}, 'x': {'aggregate': 'count', 'scale': {'domain': [0, 6]}, 'axis': {'orient': 'top'}}}}, {'height': 200, 'width': 50, 'selection': {'brush': {'type': 'interval', 'encodings': ['y']}}, 'mark': 'bar', 'encoding': {'y': {'field': 'Name', 'type': 'nominal', 'sort': '-x', 'axis': None}, 'x': {'aggregate': 'count', 'axis': None}}}]"
+hconcat -> "[{'mark': 'point', 'encoding': {'x': {'field': 'Horsepower', 'type': 'quantitative'}, 'y': {'field': 'Miles_per_Gallon', 'type': 'quantitative'}}}, {'transform': [{'sample': 200}], 'mark': 'point', 'encoding': {'x': {'field': 'Horsepower', 'type': 'quantitative'}, 'y': {'field': 'Miles_per_Gallon', 'type': 'quantitative'}}}]"
+hconcat -> "[{'mark': 'point', 'encoding': {'x': {'field': 'unif', 'type': 'quantitative'}, 'y': {'field': 'v', 'type': 'quantitative'}}}, {'mark': 'point', 'encoding': {'x': {'field': 'norm', 'type': 'quantitative'}, 'y': {'field': 'v', 'type': 'quantitative'}}}]"
+hconcat -> "[{'selection': {'brush': {'type': 'interval'}}, 'mark': 'point', 'encoding': {'x': {'field': 'Horsepower', 'type': 'quantitative'}, 'y': {'field': 'Miles_per_Gallon', 'type': 'quantitative'}, 'color': {'condition': {'selection': 'brush', 'field': 'Cylinders', 'type': 'ordinal'}, 'value': 'grey'}}}, {'transform': [{'filter': {'selection': 'brush'}}, {'window': [{'op': 'rank', 'as': 'rank'}]}, {'filter': {'field': 'rank', 'lt': 20}}], 'hconcat': [{'width': 50, 'title': 'Horsepower', 'mark': 'text', 'encoding': {'text': {'field': 'Horsepower', 'type': 'nominal'}, 'y': {'field': 'row_number', 'type': 'ordinal', 'axis': None}}}, {'width': 50, 'title': 'MPG', 'mark': 'text', 'encoding': {'text': {'field': 'Miles_per_Gallon', 'type': 'nominal'}, 'y': {'field': 'row_number', 'type': 'ordinal', 'axis': None}}}, {'width': 50, 'title': 'Origin', 'mark': 'text', 'encoding': {'text': {'field': 'Origin', 'type': 'nominal'}, 'y': {'field': 'row_number', 'type': 'ordinal', 'axis': None}}}]}]"
+hconcat -> "[{'selection': {'hover': {'type': 'single', 'on': 'mouseover', 'empty': 'none'}}, 'mark': 'point', 'encoding': {'x': {'field': 'Horsepower', 'type': 'quantitative'}, 'y': {'field': 'Miles_per_Gallon', 'type': 'quantitative'}, 'color': {'condition': {'selection': 'hover', 'field': 'Cylinders', 'type': 'ordinal'}, 'value': 'grey'}}}, {'selection': {'hover': {'type': 'single', 'on': 'mouseover', 'empty': 'none'}}, 'mark': 'point', 'encoding': {'x': {'field': 'Horsepower', 'type': 'quantitative'}, 'y': {'field': 'Acceleration', 'type': 'quantitative'}, 'color': {'condition': {'selection': 'hover', 'field': 'Cylinders', 'type': 'ordinal'}, 'value': 'grey'}}}]"
+hconcat -> "[{'transform': [{'filter': {'field': 'gender', 'equal': 'Female'}}], 'title': 'Female', 'mark': 'bar', 'encoding': {'y': {'field': 'age', 'axis': None, 'sort': 'descending'}, 'x': {'aggregate': 'sum', 'field': 'people', 'title': 'population', 'axis': {'format': 's'}, 'sort': 'descending'}, 'color': {'field': 'gender', 'scale': {'range': ['#675193', '#ca8861']}, 'legend': None}}}, {'width': 20, 'view': {'stroke': None}, 'mark': {'type': 'text', 'align': 'center'}, 'encoding': {'y': {'field': 'age', 'type': 'ordinal', 'axis': None, 'sort': 'descending'}, 'text': {'field': 'age', 'type': 'quantitative'}}}, {'transform': [{'filter': {'field': 'gender', 'equal': 'Male'}}], 'title': 'Male', 'mark': 'bar', 'encoding': {'y': {'field': 'age', 'title': None, 'axis': None, 'sort': 'descending'}, 'x': {'aggregate': 'sum', 'field': 'people', 'title': 'population', 'axis': {'format': 's'}}, 'color': {'field': 'gender', 'legend': None}}}]"
+header -> labelAlign "+" labelAngle "+" labelExpr "+" labelPadding "+" titlePadding
+header -> labelAngle
+header -> labelFontSize "+" titleFontSize
+height -> "150"
+height -> "25"
+height -> step
+hoverbrush -> nearest "+" on "+" type
+href -> field "+" type
+industry -> bind "+" fields "+" type
+init -> x "+" y
+input -> "number"
+input -> "range"
+input -> "select"
+interpolate -> "monotone"
+interpolate -> "step-after"
+invalid -> "None"
+label -> align "+" baseline "+" dx
+labelAlign -> "left"
+labelAngle -> "-45"
+labelAngle -> "-90"
+labelAngle -> "0"
+labelAngle -> signal
+labelBaseline -> "middle"
+labelColor -> condition "+" value
+labelExpr -> "[timeFormat(datum.value, '%b'), timeFormat(datum.value, '%m') == '01' ? timeFormat(datum.value, '%Y') : '']"
+labelExpr -> "datum.label[0]"
+labelExpr -> "hours(datum.value) == 0 ? 'Midnight' : hours(datum.value) == 12 ? 'Noon' : timeFormat(datum.value, '%I:%M %p')"
+labelFontSize -> "15"
+labelOffset -> "-15"
+labelOffset -> "4"
+labelOverlap -> "False"
+labelPadding -> "-24"
+labelPadding -> "-5"
+labelPadding -> "2"
+labels -> "False"
+latitude -> field "+" type
+layer -> "['AAPL', 'AMZN', 'GOOG', 'IBM', 'MSFT']"
+layer -> "['US Gross', 'Worldwide Gross']"
+layer -> "[{'description': 'transparent layer to make it easier to trigger selection', 'selection': {'hover': {'type': 'single', 'on': 'mouseover', 'empty': 'all', 'fields': ['symbol'], 'init': {'symbol': 'AAPL'}}}, 'mark': {'type': 'line', 'strokeWidth': 8, 'stroke': 'transparent'}}, {'mark': 'line'}, {'encoding': {'x': {'aggregate': 'max', 'field': 'date'}, 'y': {'aggregate': {'argmax': 'date'}, 'field': 'price'}}, 'layer': [{'mark': {'type': 'circle'}}, {'mark': {'type': 'text', 'align': 'left', 'dx': 4}, 'encoding': {'text': {'field': 'symbol', 'type': 'nominal'}}}]}]"
+layer -> "[{'encoding': {'color': {'field': 'symbol', 'type': 'nominal'}, 'y': {'field': 'price', 'type': 'quantitative'}}, 'layer': [{'mark': 'line'}, {'transform': [{'filter': {'selection': 'hover'}}], 'mark': 'point'}]}, {'transform': [{'pivot': 'symbol', 'value': 'price', 'groupby': ['date']}], 'mark': 'rule', 'encoding': {'opacity': {'condition': {'value': 0.3, 'selection': 'hover'}, 'value': 0}, 'tooltip': [{'field': 'AAPL', 'type': 'quantitative'}, {'field': 'AMZN', 'type': 'quantitative'}, {'field': 'GOOG', 'type': 'quantitative'}, {'field': 'IBM', 'type': 'quantitative'}, {'field': 'MSFT', 'type': 'quantitative'}]}, 'selection': {'hover': {'type': 'single', 'fields': ['date'], 'nearest': True, 'on': 'mouseover', 'empty': 'none', 'clear': 'mouseout'}}}]"
+layer -> "[{'encoding': {'x': {'field': 'date', 'type': 'temporal'}, 'y': {'field': 'price', 'type': 'quantitative'}, 'color': {'field': 'symbol', 'type': 'nominal'}}, 'layer': [{'mark': 'line'}, {'selection': {'label': {'type': 'single', 'nearest': True, 'on': 'mouseover', 'encodings': ['x'], 'empty': 'none'}}, 'mark': 'point', 'encoding': {'opacity': {'condition': {'selection': 'label', 'value': 1}, 'value': 0}}}]}, {'transform': [{'filter': {'selection': 'label'}}], 'layer': [{'mark': {'type': 'rule', 'color': 'gray'}, 'encoding': {'x': {'type': 'temporal', 'field': 'date', 'aggregate': 'min'}}}, {'encoding': {'text': {'type': 'quantitative', 'field': 'price'}, 'x': {'type': 'temporal', 'field': 'date'}, 'y': {'type': 'quantitative', 'field': 'price'}}, 'layer': [{'mark': {'type': 'text', 'stroke': 'white', 'strokeWidth': 2, 'align': 'left', 'dx': 5, 'dy': -5}}, {'mark': {'type': 'text', 'align': 'left', 'dx': 5, 'dy': -5}, 'encoding': {'color': {'type': 'nominal', 'field': 'symbol'}}}]}]}]"
+layer -> "[{'mark': 'bar', 'encoding': {'x': {'field': 'IMDB Rating', 'bin': True}, 'y': {'aggregate': 'count'}}}, {'mark': 'rule', 'encoding': {'x': {'aggregate': 'mean', 'field': 'IMDB Rating'}, 'color': {'value': 'red'}, 'size': {'value': 5}}}]"
+layer -> "[{'mark': 'bar', 'encoding': {'x': {'field': 'IMDB Rating', 'type': 'quantitative', 'title': 'IMDB Rating'}, 'y': {'field': 'Title', 'type': 'ordinal'}}}, {'mark': {'type': 'rule', 'color': 'red'}, 'encoding': {'x': {'aggregate': 'average', 'field': 'AverageRating', 'type': 'quantitative'}}}]"
+layer -> "[{'mark': 'bar', 'encoding': {'x': {'field': 'distance', 'bin': True}, 'y': {'aggregate': 'count'}}}, {'transform': [{'filter': 'datum.delay < 5'}], 'mark': 'bar', 'encoding': {'x': {'field': 'distance', 'bin': True}, 'y': {'aggregate': 'count'}, 'color': {'value': 'goldenrod'}}}]"
+layer -> "[{'mark': 'bar', 'encoding': {'x': {'timeUnit': 'month', 'field': 'date', 'type': 'ordinal'}, 'y': {'aggregate': 'mean', 'field': 'precipitation', 'type': 'quantitative'}}}, {'mark': 'rule', 'encoding': {'y': {'aggregate': 'mean', 'field': 'precipitation', 'type': 'quantitative'}, 'color': {'value': 'firebrick'}, 'size': {'value': 3}}}]"
+layer -> "[{'mark': 'bar', 'encoding': {'x': {'timeUnit': 'month', 'field': 'date', 'type': 'ordinal'}, 'y': {'aggregate': 'mean', 'field': 'precipitation', 'type': 'quantitative'}}}, {'mark': 'rule', 'encoding': {'y': {'aggregate': 'mean', 'field': 'precipitation', 'type': 'quantitative'}, 'color': {'value': 'red'}, 'size': {'value': 3}}}]"
+layer -> "[{'mark': 'bar', 'encoding': {'y': {'field': 'Cumulative Count', 'type': 'quantitative'}}}, {'mark': {'type': 'bar', 'color': 'yellow', 'opacity': 0.5}, 'encoding': {'y': {'field': 'count', 'type': 'quantitative'}}}]"
+layer -> "[{'mark': 'circle', 'encoding': {'x': {'bin': True, 'field': 'Acceleration', 'type': 'quantitative'}, 'y': {'bin': True, 'field': 'Horsepower', 'type': 'quantitative'}, 'size': {'aggregate': 'count', 'type': 'quantitative', 'title': 'All Cars Count'}}}, {'transform': [{'filter': "datum.Origin === 'Japan'"}], 'mark': 'circle', 'encoding': {'x': {'bin': True, 'field': 'Acceleration', 'type': 'quantitative'}, 'y': {'bin': True, 'field': 'Horsepower', 'type': 'quantitative'}, 'size': {'aggregate': 'count', 'type': 'quantitative', 'title': 'Cars from Japan Count'}, 'color': {'value': 'firebrick'}}}]"
+layer -> "[{'mark': 'circle', 'encoding': {'x': {'timeUnit': 'year', 'field': 'Year'}, 'y': {'field': 'Miles_per_Gallon', 'type': 'quantitative'}}}, {'mark': {'type': 'line', 'color': 'red'}, 'encoding': {'x': {'timeUnit': 'year', 'field': 'Year'}, 'y': {'field': 'Average_MPG', 'type': 'quantitative', 'title': 'Miles Per Gallon'}}}]"
+layer -> "[{'mark': 'errorbar', 'encoding': {'x': {'field': 'yield', 'type': 'quantitative', 'scale': {'zero': False}}, 'y': {'field': 'variety', 'type': 'ordinal'}}}, {'mark': {'type': 'point', 'filled': True, 'color': 'black'}, 'encoding': {'x': {'field': 'yield', 'type': 'quantitative', 'aggregate': 'mean'}, 'y': {'field': 'variety', 'type': 'ordinal'}}}]"
+layer -> "[{'mark': 'errorbar', 'encoding': {'x': {'field': 'yield', 'type': 'quantitative', 'scale': {'zero': False}}}}, {'mark': {'type': 'point', 'filled': True, 'color': 'black'}, 'encoding': {'x': {'field': 'yield', 'aggregate': 'mean', 'type': 'quantitative'}}}]"
+layer -> "[{'mark': 'errorbar', 'encoding': {'y': {'field': 'yield', 'type': 'quantitative', 'scale': {'zero': False}}, 'x': {'field': 'variety', 'type': 'ordinal'}}}, {'mark': {'type': 'point', 'filled': True, 'color': 'black'}, 'encoding': {'y': {'field': 'yield', 'type': 'quantitative', 'aggregate': 'mean'}, 'x': {'field': 'variety', 'type': 'ordinal'}}}]"
+layer -> "[{'mark': 'errorbar', 'encoding': {'y': {'field': 'yield', 'type': 'quantitative', 'scale': {'zero': False}}}}, {'mark': {'type': 'point', 'filled': True, 'color': 'black'}, 'encoding': {'y': {'field': 'yield', 'aggregate': 'mean', 'type': 'quantitative'}}}]"
+layer -> "[{'mark': 'line', 'encoding': {'detail': {'field': 'country', 'type': 'nominal'}, 'color': {'value': '#db646f'}}}, {'mark': {'type': 'point', 'filled': True}, 'encoding': {'color': {'field': 'year', 'type': 'ordinal', 'scale': {'domain': [1955, 2000], 'range': ['#e6959c', '#911a24']}, 'title': 'Year'}, 'size': {'value': 100}, 'opacity': {'value': 1}}}]"
+layer -> "[{'mark': 'line', 'encoding': {'x': {'field': 'date', 'type': 'temporal', 'title': 'date'}, 'y': {'field': 'price', 'type': 'quantitative', 'title': 'price'}}}, {'encoding': {'x': {'aggregate': 'max', 'field': 'date', 'type': 'temporal'}, 'y': {'aggregate': {'argmax': 'date'}, 'field': 'price', 'type': 'quantitative'}}, 'layer': [{'mark': {'type': 'circle'}}, {'mark': {'type': 'text', 'align': 'left', 'dx': 4}, 'encoding': {'text': {'field': 'symbol', 'type': 'nominal'}}}]}]"
+layer -> "[{'mark': 'line', 'encoding': {'x': {'field': 'date', 'type': 'temporal'}, 'y': {'field': 'price', 'type': 'quantitative'}, 'color': {'field': 'symbol', 'type': 'nominal'}}}, {'mark': 'rule', 'encoding': {'y': {'field': 'price', 'aggregate': 'mean'}, 'size': {'value': 2}, 'color': {'field': 'symbol'}}}]"
+layer -> "[{'mark': 'line', 'encoding': {'x': {'field': 'date', 'type': 'temporal'}, 'y': {'field': 'price', 'type': 'quantitative'}, 'color': {'field': 'symbol', 'type': 'nominal'}}}]"
+layer -> "[{'mark': 'line', 'encoding': {'x': {'field': 'scaled_date'}, 'y': {'field': 'CO2'}}}, {'mark': {'type': 'text', 'baseline': 'top', 'aria': False}, 'encoding': {'x': {'aggregate': 'min', 'field': 'scaled_date'}, 'y': {'aggregate': {'argmin': 'scaled_date'}, 'field': 'CO2'}, 'text': {'aggregate': {'argmin': 'scaled_date'}, 'field': 'year'}}}, {'mark': {'type': 'text', 'aria': False}, 'encoding': {'x': {'aggregate': 'max', 'field': 'scaled_date'}, 'y': {'aggregate': {'argmax': 'scaled_date'}, 'field': 'CO2'}, 'text': {'aggregate': {'argmax': 'scaled_date'}, 'field': 'year'}}}]"
+layer -> "[{'mark': 'line', 'encoding': {'y': {'aggregate': 'mean', 'field': {'repeat': 'column'}}, 'x': {'timeUnit': 'month', 'field': 'date', 'type': 'ordinal'}, 'detail': {'timeUnit': 'year', 'field': 'date'}, 'color': {'field': 'location'}, 'opacity': {'value': 0.2}}}, {'mark': 'line', 'encoding': {'y': {'aggregate': 'mean', 'field': {'repeat': 'column'}}, 'x': {'timeUnit': 'month', 'field': 'date', 'type': 'ordinal'}, 'color': {'field': 'location'}}}]"
+layer -> "[{'mark': 'line', 'encoding': {'y': {'aggregate': 'sum', 'field': 'people', 'title': 'population'}, 'x': {'field': 'age', 'type': 'ordinal'}, 'color': {'field': 'gender', 'scale': {'range': ['#675193', '#ca8861']}}}}, {'mark': 'point', 'encoding': {'y': {'aggregate': 'sum', 'field': 'people', 'title': 'population'}, 'x': {'field': 'age'}, 'color': {'field': 'gender', 'scale': {'range': ['#675193', '#ca8861']}}}}]"
+layer -> "[{'mark': 'line', 'encoding': {'y': {'field': 'price', 'type': 'quantitative'}, 'color': {'field': 'symbol', 'type': 'nominal'}}}, {'selection': {'index': {'type': 'single', 'on': 'mousemove', 'encodings': ['x'], 'nearest': True}}, 'mark': {'type': 'point'}, 'encoding': {'y': {'field': 'price', 'type': 'quantitative'}, 'opacity': {'value': 0}}}, {'transform': [{'filter': {'and': ['index.date', {'selection': 'index'}]}}], 'mark': 'rule'}, {'transform': [{'filter': {'and': ['index.date', {'selection': 'index'}]}}], 'mark': 'text', 'encoding': {'y': {'value': 10}, 'text': {'field': 'date', 'type': 'temporal'}}}]"
+layer -> "[{'mark': 'line'}, {'mark': {'type': 'point', 'filled': True}}]"
+layer -> "[{'mark': 'point', 'encoding': {'x': {'field': 'Horsepower', 'type': 'quantitative'}, 'y': {'field': 'Miles_per_Gallon', 'type': 'quantitative', 'title': 'Miles per Gallon'}}}, {'mark': 'rule', 'encoding': {'y': {'aggregate': 'min', 'field': 'Miles_per_Gallon'}}}, {'mark': 'rule', 'encoding': {'y': {'aggregate': 'max', 'field': 'Miles_per_Gallon'}}}, {'mark': 'rect', 'encoding': {'y': {'aggregate': 'max', 'field': 'Miles_per_Gallon'}, 'y2': {'aggregate': 'min', 'field': 'Miles_per_Gallon'}, 'opacity': {'value': 0.2}}}]"
+layer -> "[{'mark': 'point', 'encoding': {'x': {'field': 'Horsepower', 'type': 'quantitative'}, 'y': {'field': 'Miles_per_Gallon', 'type': 'quantitative'}}}, {'mark': {'type': 'errorband', 'extent': 'stdev', 'opacity': 0.2}, 'encoding': {'y': {'field': 'Miles_per_Gallon', 'type': 'quantitative', 'title': 'Miles per Gallon'}}}, {'mark': 'rule', 'encoding': {'y': {'field': 'Miles_per_Gallon', 'type': 'quantitative', 'aggregate': 'mean'}}}]"
+layer -> "[{'mark': 'point', 'encoding': {'x': {'field': 'Horsepower', 'type': 'quantitative'}, 'y': {'field': 'Miles_per_Gallon', 'type': 'quantitative'}}}, {'mark': {'type': 'errorband', 'extent': 'stdev'}, 'encoding': {'y': {'field': 'Miles_per_Gallon', 'type': 'quantitative', 'title': 'Miles per Gallon'}}}]"
+layer -> "[{'mark': 'point', 'encoding': {'y': {'field': 'variety', 'type': 'ordinal', 'sort': '-x'}, 'color': {'field': 'year', 'type': 'nominal'}}}, {'mark': 'rule'}]"
+layer -> "[{'mark': 'rect', 'encoding': {'color': {'field': 'num_cars', 'type': 'quantitative', 'title': 'Count of Records', 'legend': {'direction': 'horizontal', 'gradientLength': 120}}}}, {'mark': 'text', 'encoding': {'text': {'field': 'num_cars', 'type': 'quantitative'}, 'color': {'condition': {'test': "datum['num_cars'] < 40", 'value': 'black'}, 'value': 'white'}}}]"
+layer -> "[{'mark': 'rect', 'encoding': {'color': {'field': 'num_cars', 'type': 'quantitative', 'title': 'Count of Records', 'legend': {'direction': 'horizontal', 'gradientLength': 120}}}}, {'mark': 'text', 'encoding': {'text': {'field': 'num_cars', 'type': 'quantitative'}, 'color': {'field': 'more_than_half', 'type': 'nominal', 'scale': {'domain': [False, True], 'range': ['black', 'white']}, 'legend': None}}}]"
+layer -> "[{'mark': 'rule', 'encoding': {'x': {'field': 'age', 'type': 'ordinal'}, 'y': {'aggregate': 'min', 'field': 'people', 'type': 'quantitative', 'title': 'population'}, 'y2': {'aggregate': 'max', 'field': 'people'}}}, {'mark': 'tick', 'encoding': {'x': {'field': 'age', 'type': 'ordinal'}, 'y': {'aggregate': 'min', 'field': 'people', 'type': 'quantitative', 'title': 'population'}, 'size': {'value': 5}}}, {'mark': 'tick', 'encoding': {'x': {'field': 'age', 'type': 'ordinal'}, 'y': {'aggregate': 'max', 'field': 'people', 'type': 'quantitative', 'title': 'population'}, 'size': {'value': 5}}}, {'mark': 'point', 'encoding': {'x': {'field': 'age', 'type': 'ordinal'}, 'y': {'aggregate': 'mean', 'field': 'people', 'type': 'quantitative', 'title': 'population'}, 'size': {'value': 2}}}]"
+layer -> "[{'mark': 'rule', 'encoding': {'y': {'field': 'age', 'type': 'ordinal'}, 'x': {'aggregate': 'min', 'field': 'people', 'type': 'quantitative', 'title': 'population'}, 'x2': {'aggregate': 'max', 'field': 'people'}}}, {'mark': 'tick', 'encoding': {'y': {'field': 'age', 'type': 'ordinal'}, 'x': {'aggregate': 'min', 'field': 'people', 'type': 'quantitative', 'title': 'population'}, 'size': {'value': 5}}}, {'mark': 'tick', 'encoding': {'y': {'field': 'age', 'type': 'ordinal'}, 'x': {'aggregate': 'max', 'field': 'people', 'type': 'quantitative', 'title': 'population'}, 'size': {'value': 5}}}, {'mark': 'point', 'encoding': {'y': {'field': 'age', 'type': 'ordinal'}, 'x': {'aggregate': 'mean', 'field': 'people', 'type': 'quantitative', 'title': 'population'}, 'size': {'value': 2}}}]"
+layer -> "[{'mark': 'rule', 'encoding': {'y': {'field': 'low'}, 'y2': {'field': 'high'}}}, {'mark': 'bar', 'encoding': {'y': {'field': 'open'}, 'y2': {'field': 'close'}}}]"
+layer -> "[{'mark': 'square', 'encoding': {'longitude': {'field': 'longitude', 'type': 'quantitative'}, 'latitude': {'field': 'latitude', 'type': 'quantitative'}, 'size': {'value': 1}, 'color': {'value': 'gray'}}}, {'mark': 'square', 'encoding': {'longitude': {'datum': -122.335167}, 'latitude': {'field': 'latitude', 'type': 'quantitative'}, 'size': {'value': 1}, 'color': {'value': 'steelblue'}}}, {'mark': 'square', 'encoding': {'longitude': {'field': 'longitude', 'type': 'quantitative'}, 'latitude': {'datum': 47.608013}, 'size': {'value': 1}, 'color': {'value': 'firebrick'}}}]"
+layer -> "[{'mark': {'opacity': 0.3, 'type': 'area', 'color': '#85C5A6'}, 'encoding': {'y': {'aggregate': 'average', 'field': 'temp_max', 'scale': {'domain': [0, 30]}, 'title': 'Avg. Temperature (°C)', 'axis': {'titleColor': '#85C5A6'}}, 'y2': {'aggregate': 'average', 'field': 'temp_min'}}}, {'mark': {'stroke': '#85A9C5', 'type': 'line', 'interpolate': 'monotone'}, 'encoding': {'y': {'aggregate': 'average', 'field': 'precipitation', 'title': 'Precipitation (inches)', 'axis': {'titleColor': '#85A9C5'}}}}]"
+layer -> "[{'mark': {'type': 'arc', 'stroke': 'white', 'tooltip': True}}, {'mark': {'type': 'text', 'radiusOffset': 15, 'align': 'right'}, 'encoding': {'text': {'bin': True, 'field': 'IMDB Rating'}, 'angle': {'bin': True, 'field': 'IMDB Rating', 'scale': {'range': [90, 450]}}}}]"
+layer -> "[{'mark': {'type': 'bar', 'clip': True}, 'encoding': {'x': {'field': 'IMDB Rating', 'type': 'quantitative', 'title': 'IMDB Rating'}, 'y': {'field': 'Title', 'type': 'ordinal'}}}, {'mark': 'tick', 'encoding': {'x': {'field': 'AverageYearRating', 'type': 'quantitative'}, 'y': {'field': 'Title', 'type': 'ordinal'}, 'color': {'value': 'red'}}}]"
+layer -> "[{'mark': {'type': 'bar', 'color': '#ddd'}, 'encoding': {'x': {'aggregate': 'mean', 'field': 'IMDB Rating', 'scale': {'domain': [0, 10]}, 'title': 'Mean IMDB Ratings'}}}, {'mark': {'type': 'text', 'align': 'left', 'x': 5}, 'encoding': {'text': {'field': 'Major Genre'}, 'detail': {'aggregate': 'count'}}}]"
+layer -> "[{'mark': {'type': 'bar', 'fill': '#aaa', 'stroke': '#999'}, 'encoding': {'x': {'field': 'year'}, 'x2': {'field': 'year_end'}, 'y': {'field': 'wheat'}}}, {'data': {'values': [{'year': '1600'}, {'year': '1650'}, {'year': '1700'}, {'year': '1750'}, {'year': '1800'}]}, 'mark': {'type': 'rule', 'stroke': '#000', 'strokeWidth': 0.6, 'opacity': 0.5}, 'encoding': {'x': {'field': 'year'}}}, {'mark': {'type': 'area', 'color': '#a4cedb', 'opacity': 0.7}, 'encoding': {'x': {'field': 'year'}, 'y': {'field': 'wages'}}}, {'mark': {'type': 'line', 'color': '#000', 'opacity': 0.7}, 'encoding': {'x': {'field': 'year'}, 'y': {'field': 'wages'}}}, {'mark': {'type': 'line', 'yOffset': -2, 'color': '#EE8182'}, 'encoding': {'x': {'field': 'year'}, 'y': {'field': 'wages'}}}, {'data': {'url': 'data/monarchs.json'}, 'transform': [{'calculate': '((!datum.commonwealth && datum.index % 2) ? -1: 1) * 2 + 95', 'as': 'offset'}, {'calculate': '95', 'as': 'y'}], 'mark': {'type': 'bar', 'stroke': '#000'}, 'encoding': {'x': {'field': 'start'}, 'x2': {'field': 'end'}, 'y': {'field': 'y'}, 'y2': {'field': 'offset'}, 'fill': {'field': 'commonwealth', 'scale': {'range': ['black', 'white']}, 'legend': None}}}, {'data': {'url': 'data/monarchs.json'}, 'transform': [{'calculate': '((!datum.commonwealth && datum.index % 2) ? -1: 1) + 95', 'as': 'off2'}, {'calculate': '+datum.start + (+datum.end - +datum.start)/2', 'as': 'x'}], 'mark': {'type': 'text', 'yOffset': 16, 'fontSize': 9, 'baseline': 'bottom', 'fontStyle': 'italic'}, 'encoding': {'x': {'field': 'x'}, 'y': {'field': 'off2'}, 'text': {'field': 'name'}}}]"
+layer -> "[{'mark': {'type': 'bar', 'style': 'box'}, 'encoding': {'y': {'field': 'record.low'}, 'y2': {'field': 'record.high'}, 'size': {'value': 20}, 'color': {'value': '#ccc'}}}, {'mark': {'type': 'bar', 'style': 'box'}, 'encoding': {'y': {'field': 'normal.low'}, 'y2': {'field': 'normal.high'}, 'size': {'value': 20}, 'color': {'value': '#999'}}}, {'mark': {'type': 'bar', 'style': 'box'}, 'encoding': {'y': {'field': 'actual.low'}, 'y2': {'field': 'actual.high'}, 'size': {'value': 12}, 'color': {'value': '#000'}}}, {'mark': {'type': 'bar', 'style': 'box'}, 'encoding': {'y': {'field': 'forecast.low.low'}, 'y2': {'field': 'forecast.low.high'}, 'size': {'value': 12}, 'color': {'value': '#000'}}}, {'mark': {'type': 'bar', 'style': 'box'}, 'encoding': {'y': {'field': 'forecast.low.high'}, 'y2': {'field': 'forecast.high.low'}, 'size': {'value': 3}, 'color': {'value': '#000'}}}, {'mark': {'type': 'bar', 'style': 'box'}, 'encoding': {'y': {'field': 'forecast.high.low'}, 'y2': {'field': 'forecast.high.high'}, 'size': {'value': 12}, 'color': {'value': '#000'}}}, {'mark': {'type': 'text', 'align': 'center', 'baseline': 'bottom', 'y': -5}, 'encoding': {'text': {'field': 'day'}}}]"
+layer -> "[{'mark': {'type': 'boxplot', 'outliers': False}, 'encoding': {'y': {'field': 'age', 'type': 'ordinal'}, 'x': {'field': 'people', 'type': 'quantitative', 'title': 'population'}}}, {'mark': 'circle', 'encoding': {'y': {'field': 'age', 'type': 'ordinal'}, 'x': {'field': 'people', 'type': 'quantitative', 'title': 'population'}, 'color': {'value': 'black'}, 'opacity': {'value': 0.2}}}]"
+layer -> "[{'mark': {'type': 'errorband', 'extent': 'ci', 'borders': True}, 'encoding': {'y': {'field': 'Miles_per_Gallon', 'type': 'quantitative', 'scale': {'zero': False}, 'title': 'Miles per Gallon (95% CIs)'}, 'x': {'timeUnit': 'year', 'field': 'Year'}, 'color': {'value': 'black'}}}]"
+layer -> "[{'mark': {'type': 'errorband', 'extent': 'ci', 'borders': {'opacity': 0.5, 'strokeDash': [6, 4]}}, 'encoding': {'y': {'field': 'Miles_per_Gallon'}}}, {'mark': 'line', 'encoding': {'y': {'field': 'Miles_per_Gallon', 'aggregate': 'mean'}}}]"
+layer -> "[{'mark': {'type': 'errorband', 'extent': 'ci'}, 'encoding': {'y': {'field': 'Miles_per_Gallon', 'type': 'quantitative', 'title': 'Mean of Miles per Gallon (95% CIs)'}}}, {'mark': 'line', 'encoding': {'y': {'aggregate': 'mean', 'field': 'Miles_per_Gallon'}}}]"
+layer -> "[{'mark': {'type': 'errorbar', 'extent': 'ci'}, 'encoding': {'x': {'field': 'yield', 'type': 'quantitative', 'scale': {'zero': False}}, 'y': {'field': 'variety', 'type': 'ordinal'}}}, {'mark': {'type': 'point', 'filled': True, 'color': 'black'}, 'encoding': {'x': {'field': 'yield', 'type': 'quantitative', 'aggregate': 'mean'}, 'y': {'field': 'variety', 'type': 'ordinal'}}}]"
+layer -> "[{'mark': {'type': 'errorbar', 'extent': 'iqr'}, 'encoding': {'x': {'field': 'yield', 'type': 'quantitative', 'scale': {'zero': False}}, 'y': {'field': 'variety', 'type': 'ordinal'}}}, {'mark': {'type': 'point', 'filled': True, 'color': 'black'}, 'encoding': {'x': {'field': 'yield', 'type': 'quantitative', 'aggregate': 'median'}, 'y': {'field': 'variety', 'type': 'ordinal'}}}]"
+layer -> "[{'mark': {'type': 'errorbar', 'extent': 'stdev'}, 'encoding': {'x': {'field': 'yield', 'type': 'quantitative', 'scale': {'zero': False}}, 'y': {'field': 'variety', 'type': 'ordinal'}}}, {'mark': {'type': 'point', 'filled': True, 'color': 'black'}, 'encoding': {'x': {'field': 'yield', 'type': 'quantitative', 'aggregate': 'mean'}, 'y': {'field': 'variety', 'type': 'ordinal'}}}]"
+layer -> "[{'mark': {'type': 'errorbar', 'ticks': True}, 'encoding': {'x': {'field': 'yield', 'type': 'quantitative', 'scale': {'zero': False}}, 'y': {'field': 'variety', 'type': 'ordinal'}, 'color': {'value': '#4682b4'}}}, {'mark': {'type': 'point', 'filled': True, 'color': 'black'}, 'encoding': {'x': {'field': 'yield', 'type': 'quantitative', 'aggregate': 'mean'}, 'y': {'field': 'variety', 'type': 'ordinal'}}}]"
+layer -> "[{'mark': {'type': 'errorbar', 'ticks': {'color': 'teal'}}, 'encoding': {'x': {'field': 'yield', 'type': 'quantitative', 'scale': {'zero': False}}, 'y': {'field': 'variety', 'type': 'ordinal'}}}, {'mark': {'type': 'point', 'filled': True, 'color': 'black'}, 'encoding': {'x': {'field': 'yield', 'type': 'quantitative', 'aggregate': 'mean'}, 'y': {'field': 'variety', 'type': 'ordinal'}}}]"
+layer -> "[{'mark': {'type': 'line', 'color': 'orange'}, 'encoding': {'y': {'field': 'temp_max', 'type': 'quantitative'}}}, {'mark': {'type': 'line', 'color': 'red'}, 'encoding': {'y': {'field': 'temp_min', 'type': 'quantitative'}}}, {'mark': 'rule', 'selection': {'hover': {'type': 'single', 'on': 'mouseover', 'empty': 'none'}}, 'encoding': {'color': {'condition': {'selection': {'not': 'hover'}, 'value': 'transparent'}}}}]"
+layer -> "[{'mark': {'type': 'line', 'stroke': 'white', 'strokeWidth': 4}, 'encoding': {'x': {'field': 'date', 'type': 'temporal'}, 'y': {'field': {'repeat': 'layer'}, 'type': 'quantitative', 'title': 'price'}}}, {'mark': {'type': 'line'}, 'encoding': {'x': {'field': 'date', 'type': 'temporal'}, 'y': {'field': {'repeat': 'layer'}, 'type': 'quantitative', 'title': 'price'}, 'stroke': {'datum': {'repeat': 'layer'}, 'type': 'nominal'}}}]"
+layer -> "[{'mark': {'type': 'point', 'filled': True}, 'encoding': {'x': {'aggregate': 'mean', 'field': 'yield', 'type': 'quantitative', 'scale': {'zero': False}, 'title': 'Barley Yield'}, 'color': {'value': 'black'}}}, {'mark': {'type': 'errorbar', 'extent': 'ci'}, 'encoding': {'x': {'field': 'yield', 'type': 'quantitative', 'title': 'Barley Yield'}}}]"
+layer -> "[{'mark': {'type': 'point', 'filled': True}, 'encoding': {'x': {'aggregate': 'mean', 'field': 'yield', 'type': 'quantitative', 'scale': {'zero': False}, 'title': 'Barley Yield'}, 'color': {'value': 'black'}}}, {'mark': {'type': 'errorbar', 'extent': 'stdev'}, 'encoding': {'x': {'field': 'yield', 'type': 'quantitative', 'title': 'Barley Yield'}}}]"
+layer -> "[{'mark': {'type': 'point', 'filled': True}, 'encoding': {'x': {'field': 'Rotten Tomatoes Rating', 'type': 'quantitative'}, 'y': {'field': 'IMDB Rating', 'type': 'quantitative'}}}, {'mark': {'type': 'line', 'color': 'firebrick'}, 'transform': [{'loess': 'IMDB Rating', 'on': 'Rotten Tomatoes Rating'}], 'encoding': {'x': {'field': 'Rotten Tomatoes Rating', 'type': 'quantitative'}, 'y': {'field': 'IMDB Rating', 'type': 'quantitative'}}}]"
+layer -> "[{'mark': {'type': 'point', 'filled': True}, 'encoding': {'x': {'field': 'Rotten Tomatoes Rating', 'type': 'quantitative'}, 'y': {'field': 'IMDB Rating', 'type': 'quantitative'}}}, {'mark': {'type': 'line', 'color': 'firebrick'}, 'transform': [{'regression': 'IMDB Rating', 'on': 'Rotten Tomatoes Rating'}], 'encoding': {'x': {'field': 'Rotten Tomatoes Rating', 'type': 'quantitative'}, 'y': {'field': 'IMDB Rating', 'type': 'quantitative'}}}, {'transform': [{'regression': 'IMDB Rating', 'on': 'Rotten Tomatoes Rating', 'params': True}, {'calculate': "'R²: '+format(datum.rSquared, '.2f')", 'as': 'R2'}], 'mark': {'type': 'text', 'color': 'firebrick', 'x': 'width', 'align': 'right', 'y': -5}, 'encoding': {'text': {'type': 'nominal', 'field': 'R2'}}}]"
+layer -> "[{'mark': {'type': 'point', 'opacity': 0.3}, 'encoding': {'x': {'timeUnit': 'year', 'field': 'date'}, 'y': {'field': 'price', 'type': 'quantitative'}}}, {'mark': 'line', 'encoding': {'x': {'timeUnit': 'year', 'field': 'date'}, 'y': {'aggregate': 'mean', 'field': 'price'}}}]"
+layer -> "[{'mark': {'type': 'point', 'opacity': 0.3}, 'encoding': {'y': {'field': 'temp_max', 'title': 'Max Temperature'}}}, {'mark': {'type': 'line', 'color': 'red', 'size': 3}, 'encoding': {'y': {'field': 'rolling_mean', 'title': 'Rolling Mean of Max Temperature'}}}]"
+layer -> "[{'mark': {'type': 'rule', 'color': '#ccc'}, 'encoding': {'detail': {'aggregate': 'count'}, 'x': {'field': 'key'}}}, {'mark': 'line', 'encoding': {'color': {'type': 'nominal', 'field': 'Species'}, 'detail': {'type': 'nominal', 'field': 'index'}, 'opacity': {'value': 0.3}, 'x': {'type': 'nominal', 'field': 'key'}, 'y': {'type': 'quantitative', 'field': 'norm_val', 'axis': None}, 'tooltip': [{'type': 'quantitative', 'field': 'Beak Length (mm)'}, {'type': 'quantitative', 'field': 'Beak Depth (mm)'}, {'type': 'quantitative', 'field': 'Flipper Length (mm)'}, {'type': 'quantitative', 'field': 'Body Mass (g)'}]}}, {'encoding': {'x': {'type': 'nominal', 'field': 'key'}, 'y': {'value': 0}}, 'layer': [{'mark': {'type': 'text', 'style': 'label'}, 'encoding': {'text': {'aggregate': 'max', 'field': 'max'}}}, {'mark': {'type': 'tick', 'style': 'tick', 'size': 8, 'color': '#ccc'}}]}, {'encoding': {'x': {'type': 'nominal', 'field': 'key'}, 'y': {'value': 150}}, 'layer': [{'mark': {'type': 'text', 'style': 'label'}, 'encoding': {'text': {'aggregate': 'min', 'field': 'mid'}}}, {'mark': {'type': 'tick', 'style': 'tick', 'size': 8, 'color': '#ccc'}}]}, {'encoding': {'x': {'type': 'nominal', 'field': 'key'}, 'y': {'value': 300}}, 'layer': [{'mark': {'type': 'text', 'style': 'label'}, 'encoding': {'text': {'aggregate': 'min', 'field': 'min'}}}, {'mark': {'type': 'tick', 'style': 'tick', 'size': 8, 'color': '#ccc'}}]}]"
+layer -> "[{'selection': {'CylYr': {'type': 'single', 'fields': ['Cylinders', 'Year'], 'init': {'Cylinders': 4, 'Year': 1977}, 'bind': {'Cylinders': {'input': 'range', 'min': 3, 'max': 8, 'step': 1}, 'Year': {'input': 'range', 'min': 1969, 'max': 1981, 'step': 1}}}}, 'mark': 'circle', 'encoding': {'x': {'field': 'Horsepower', 'type': 'quantitative'}, 'y': {'field': 'Miles_per_Gallon', 'type': 'quantitative'}, 'color': {'condition': {'selection': 'CylYr', 'field': 'Origin', 'type': 'nominal'}, 'value': 'grey'}}}, {'transform': [{'filter': {'selection': 'CylYr'}}], 'mark': 'circle', 'encoding': {'x': {'field': 'Horsepower', 'type': 'quantitative'}, 'y': {'field': 'Miles_per_Gallon', 'type': 'quantitative'}, 'color': {'field': 'Origin', 'type': 'nominal'}, 'size': {'value': 100}}}]"
+layer -> "[{'selection': {'brush': {'type': 'interval', 'encodings': ['x']}}, 'mark': 'area'}, {'transform': [{'filter': {'selection': 'brush'}}], 'mark': {'type': 'area', 'color': 'goldenrod'}}]"
+layer -> "[{'selection': {'brush': {'type': 'interval', 'encodings': ['x']}}, 'mark': 'bar', 'encoding': {'x': {'field': 'Acceleration', 'bin': True}, 'y': {'aggregate': 'count'}}}, {'transform': [{'filter': {'selection': 'brush'}}], 'mark': 'bar', 'encoding': {'x': {'field': 'Acceleration', 'bin': True}, 'y': {'aggregate': 'count'}, 'color': {'value': 'goldenrod'}}}]"
+layer -> "[{'selection': {'brush': {'type': 'interval', 'encodings': ['x']}}, 'mark': 'bar', 'encoding': {'x': {'field': {'repeat': 'column'}, 'bin': {'maxbins': 20}}, 'y': {'aggregate': 'count'}, 'color': {'value': '#ddd'}}}, {'transform': [{'filter': {'selection': 'brush'}}], 'mark': 'bar', 'encoding': {'x': {'field': {'repeat': 'column'}, 'bin': {'maxbins': 20}}, 'y': {'aggregate': 'count'}}}]"
+layer -> "[{'selection': {'brush': {'type': 'interval', 'encodings': ['x']}}, 'mark': 'bar', 'encoding': {'x': {'timeUnit': 'month', 'field': 'date', 'type': 'ordinal'}, 'y': {'aggregate': 'mean', 'field': 'precipitation', 'type': 'quantitative'}, 'opacity': {'condition': {'selection': 'brush', 'value': 1}, 'value': 0.7}}}, {'transform': [{'filter': {'selection': 'brush'}}], 'mark': 'rule', 'encoding': {'y': {'aggregate': 'mean', 'field': 'precipitation', 'type': 'quantitative'}, 'color': {'value': 'firebrick'}, 'size': {'value': 3}}}]"
+layer -> "[{'selection': {'brush': {'type': 'multi', 'encodings': ['x']}}, 'mark': 'bar', 'encoding': {'x': {'field': {'repeat': 'column'}, 'bin': {'maxbins': 20}}, 'y': {'aggregate': 'count'}, 'color': {'value': '#ddd'}}}, {'transform': [{'filter': {'selection': 'brush'}}], 'mark': 'bar', 'encoding': {'x': {'field': {'repeat': 'column'}, 'bin': {'maxbins': 20}}, 'y': {'aggregate': 'count'}}}]"
+layer -> "[{'selection': {'grid': {'type': 'interval', 'bind': 'scales', 'translate': '[mousedown[!event.shiftKey], mouseup] > mousemove'}, 'cyl': {'type': 'single', 'fields': ['Cylinders'], 'bind': {'input': 'range', 'min': 3, 'max': 8, 'step': 1}}}, 'mark': 'point', 'encoding': {'x': {'field': 'Horsepower', 'type': 'quantitative'}, 'y': {'field': 'Miles_per_Gallon', 'type': 'quantitative'}, 'color': {'condition': {'selection': 'brush', 'value': 'grey'}, 'field': 'Cylinders', 'type': 'ordinal'}, 'size': {'value': 100}}}, {'mark': 'square', 'selection': {'brush': {'type': 'interval', 'on': '[mousedown[event.shiftKey], mouseup] > mousemove', 'translate': '[mousedown[event.shiftKey], mouseup] > mousemove'}}, 'encoding': {'x': {'field': 'Horsepower', 'type': 'quantitative'}, 'y': {'field': 'Miles_per_Gallon', 'type': 'quantitative'}, 'color': {'condition': {'selection': 'brush', 'field': 'Cylinders', 'type': 'ordinal'}, 'value': 'grey'}, 'size': {'value': 50, 'condition': {'selection': 'cyl', 'value': 150}}}}]"
+layer -> "[{'selection': {'index': {'type': 'single', 'on': 'mouseover', 'encodings': ['x'], 'nearest': True, 'init': {'x': {'year': 2005, 'month': 1, 'date': 1}}}}, 'mark': 'point', 'encoding': {'x': {'field': 'date', 'type': 'temporal', 'axis': None}, 'opacity': {'value': 0}}}, {'transform': [{'lookup': 'symbol', 'from': {'selection': 'index', 'key': 'symbol'}}, {'calculate': 'datum.index && datum.index.price > 0 ? (datum.price - datum.index.price)/datum.index.price : 0', 'as': 'indexed_price'}], 'mark': 'line', 'encoding': {'x': {'field': 'date', 'type': 'temporal', 'axis': None}, 'y': {'field': 'indexed_price', 'type': 'quantitative', 'axis': {'format': '%'}}, 'color': {'field': 'symbol', 'type': 'nominal'}}}, {'transform': [{'filter': {'selection': 'index'}}], 'encoding': {'x': {'field': 'date', 'type': 'temporal', 'axis': None}, 'color': {'value': 'firebrick'}}, 'layer': [{'mark': {'type': 'rule', 'strokeWidth': 0.5}}, {'mark': {'type': 'text', 'align': 'center', 'fontWeight': 100}, 'encoding': {'text': {'field': 'date', 'timeUnit': 'yearmonth'}, 'y': {'value': 310}}}]}]"
+layer -> "[{'transform': [{'filter': {'field': 'country', 'equal': 'Afghanistan'}}, {'filter': {'selection': 'year'}}], 'mark': {'type': 'text', 'fontSize': 100, 'x': 420, 'y': 250, 'opacity': 0.06}, 'encoding': {'text': {'field': 'year'}}}, {'transform': [{'lookup': 'cluster', 'from': {'key': 'id', 'fields': ['name'], 'data': {'values': [{'id': 0, 'name': 'South Asia'}, {'id': 1, 'name': 'Europe & Central Asia'}, {'id': 2, 'name': 'Sub-Saharan Africa'}, {'id': 3, 'name': 'America'}, {'id': 4, 'name': 'East Asia & Pacific'}, {'id': 5, 'name': 'Middle East & North Africa'}]}}}], 'encoding': {'x': {'field': 'fertility', 'type': 'quantitative', 'scale': {'domain': [0, 9]}, 'axis': {'tickCount': 5, 'title': 'Fertility'}}, 'y': {'field': 'life_expect', 'type': 'quantitative', 'scale': {'domain': [20, 85]}, 'axis': {'tickCount': 5, 'title': 'Life Expectancy'}}}, 'layer': [{'mark': {'type': 'line', 'size': 4, 'color': 'lightgray', 'strokeCap': 'round'}, 'encoding': {'detail': {'field': 'country'}, 'order': {'field': 'year'}, 'opacity': {'condition': {'test': {'or': [{'selection': 'hovered'}, {'selection': 'clicked'}]}, 'value': 0.8}, 'value': 0}}}, {'selection': {'year': {'type': 'single', 'fields': ['year'], 'bind': {'input': 'range', 'min': 1955, 'max': 2005, 'step': 5, 'name': 'Year'}, 'init': {'year': 1955}}, 'hovered': {'type': 'single', 'fields': ['country'], 'on': 'mouseover', 'empty': 'none'}, 'clicked': {'type': 'multi', 'fields': ['country'], 'empty': 'none'}}, 'transform': [{'filter': {'selection': 'year'}}], 'mark': {'type': 'circle', 'size': 100, 'opacity': 0.9}, 'encoding': {'color': {'field': 'name', 'title': 'Region'}}}, {'transform': [{'filter': {'and': [{'selection': 'year'}, {'or': [{'selection': 'clicked'}, {'selection': 'hovered'}]}]}}], 'mark': {'type': 'text', 'yOffset': -12, 'fontSize': 12, 'fontWeight': 'bold'}, 'encoding': {'text': {'field': 'country'}, 'color': {'field': 'name', 'title': 'Region'}}}, {'transform': [{'filter': {'selection': 'hovered'}}, {'filter': {'not': {'selection': 'year'}}}], 'layer': [{'mark': {'type': 'text', 'yOffset': -12, 'fontSize': 12, 'color': 'gray'}, 'encoding': {'text': {'field': 'year'}}}, {'mark': {'type': 'circle', 'color': 'gray'}}]}]}]"
+legend -> "None"
+legend -> "dblclick"
+legend -> clipHeight
+legend -> color
+legend -> color "+" size
+legend -> orient
+legend -> orient "+" title
+legend -> size
+legend -> title
+line -> "True"
+line -> color
+longitude -> field "+" type
+mark -> "area"
+mark -> "bar"
+mark -> "boxplot"
+mark -> "circle"
+mark -> "errorband"
+mark -> "errorbar"
+mark -> "geoshape"
+mark -> "line"
+mark -> "point"
+mark -> "rect"
+mark -> "rule"
+mark -> "square"
+mark -> "text"
+mark -> "tick"
+mark -> "trail"
+mark -> angle "+" shape "+" size "+" strokeWidth "+" type
+mark -> binSpacing "+" type
+mark -> borders "+" extent "+" type
+mark -> clip "+" type
+mark -> color "+" line "+" type
+mark -> cornerRadius "+" stroke "+" type
+mark -> cornerRadiusBottomRight "+" cornerRadiusTopRight "+" type
+mark -> cornerRadiusEnd "+" type "+" yOffset
+mark -> cornerRadiusTopLeft "+" cornerRadiusTopRight "+" type
+mark -> cursor
+mark -> extent "+" median "+" ticks "+" type
+mark -> extent "+" ticks "+" type
+mark -> extent "+" type
+mark -> fill "+" fillOpacity "+" stroke
+mark -> filled "+" shape "+" type
+mark -> filled "+" type
+mark -> interpolate "+" type
+mark -> invalid
+mark -> line "+" point "+" type
+mark -> line "+" type
+mark -> opacity "+" stroke "+" strokeWidth "+" type
+mark -> point "+" type
+mark -> timeUnitBand
+mark -> tooltip "+" type
+mark -> type
+max -> "1981"
+max -> "8"
+maxbins -> "10"
+maxbins -> "15"
+maxbins -> "2"
+maxbins -> "20"
+maxbins -> "30"
+maxbins -> "40"
+maxbins -> "5"
+maxbins -> "60"
+median -> color
+min -> "1969"
+min -> "3"
+minExtent -> "30"
+minExtent -> "40"
+minExtent -> "70"
+month -> "1"
+morgan -> mark "+" on "+" translate "+" type
+nearest -> "True"
+not -> "pts"
+offset -> "5"
+on -> "[mousedown[!event.shiftKey], mouseup] > mousemove"
+on -> "[mousedown[event.shiftKey], mouseup] > mousemove"
+on -> "dblclick"
+on -> "mouseover"
+op -> "count"
+op -> "mean"
+op -> "median"
+op -> "sum"
+opacity -> "0.8"
+opacity -> bin "+" field
+opacity -> condition "+" value
+opacity -> field "+" legend "+" type
+opacity -> field "+" type
+opacity -> value
+options -> "[None, 'Europe', 'Japan', 'USA']"
+or -> "['alex', 'morgan']"
+order -> "descending"
+order -> aggregate "+" field
+order -> field
+org -> bind "+" fields "+" type
+orient -> "horizontal"
+orient -> "left"
+orient -> "right"
+orient -> "top"
+padding -> "0"
+padding -> "0.5"
+paintbrush -> empty "+" on "+" type
+paintbrush -> nearest "+" on "+" type
+paintbrush -> on "+" type
+paintbrush -> toggle "+" type
+paintbrush -> type
+point -> "True"
+point -> fill "+" filled
+projection -> type
+pts -> encodings "+" type
+pts -> fields "+" type
+pts -> on "+" type
+pts -> type
+radius -> aggregate "+" scale
+range -> "['#675193', '#ca8861']"
+range -> "['#e7ba52', '#c7c7c7', '#aec7e8', '#1f77b4', '#9467bd']"
+range -> "['purple', '#ff0000', 'teal']"
+range -> "['triangle-left', 'triangle-right', 'triangle-up']"
+range -> "[180, 540]"
+range -> "diverging"
+rangeMax -> "500"
+rangeMax -> "5000"
+repeat -> "['temp_max', 'precipitation', 'wind']"
+repeat -> "column"
+repeat -> "layer"
+repeat -> "repeat"
+repeat -> column
+repeat -> column "+" row
+repeat -> layer
+resolve -> "global"
+resolve -> "intersect"
+resolve -> "union"
+resolve -> axis
+resolve -> legend
+resolve -> scale
+reverse -> "True"
+root -> background "+" encoding "+" mark "+" view
+root -> bounds "+" config "+" spacing "+" vconcat
+root -> columns "+" concat
+root -> config "+" encoding "+" layer
+root -> config "+" encoding "+" mark
+root -> config "+" encoding "+" mark "+" projection
+root -> config "+" encoding "+" mark "+" title
+root -> config "+" facet "+" resolve "+" spec
+root -> config "+" facet "+" spacing "+" spec "+" title
+root -> config "+" hconcat "+" spacing
+root -> config "+" layer
+root -> config "+" resolve "+" vconcat
+root -> config "+" vconcat
+root -> encoding "+" layer
+root -> encoding "+" layer "+" resolve
+root -> encoding "+" layer "+" title
+root -> encoding "+" mark
+root -> encoding "+" mark "+" projection
+root -> encoding "+" mark "+" resolve
+root -> encoding "+" mark "+" selection
+root -> encoding "+" mark "+" selection "+" view
+root -> encoding "+" mark "+" title
+root -> facet "+" spec
+root -> hconcat
+root -> hconcat "+" resolve
+root -> layer
+root -> layer "+" projection
+root -> layer "+" resolve
+root -> repeat "+" spec
+root -> resolve "+" vconcat
+root -> title "+" vconcat
+root -> vconcat
+round -> "False"
+row -> "1"
+row -> "['Beak Length (mm)', 'Beak Depth (mm)', 'Flipper Length (mm)', 'Body Mass (g)']"
+row -> "['Displacement', 'Miles_per_Gallon']"
+row -> "['Horsepower', 'Acceleration', 'Miles_per_Gallon']"
+row -> bin "+" field
+row -> field
+row -> field "+" header "+" sort "+" timeUnit "+" type
+row -> field "+" header "+" type
+row -> field "+" sort "+" title "+" type
+row -> field "+" sort "+" type
+row -> field "+" spacing
+row -> field "+" title "+" type
+scale -> domain
+scale -> domain "+" range
+scale -> domain "+" scheme
+scale -> domainMax "+" domainMin
+scale -> domainMid
+scale -> domainMid "+" range
+scale -> padding
+scale -> range
+scale -> rangeMax
+scale -> reverse
+scale -> round
+scale -> scheme
+scale -> type
+scale -> x
+scale -> y
+scale -> zero
+scheme -> "category20b"
+scheme -> "magma"
+scheme -> "rainbow"
+scheme -> "yelloworangebrown"
+selection -> "CylYr"
+selection -> "brush"
+selection -> "hover"
+selection -> "industry"
+selection -> "org"
+selection -> "paintbrush"
+selection -> "pts"
+selection -> "xenc"
+selection -> CylYr
+selection -> alex "+" morgan
+selection -> and
+selection -> brush
+selection -> brush "+" grid "+" xenc
+selection -> brush "+" hoverbrush
+selection -> grid
+selection -> industry
+selection -> not
+selection -> or
+selection -> org
+selection -> paintbrush
+selection -> pts
+selection -> view
+shape -> "wedge"
+shape -> condition "+" value
+shape -> expr
+shape -> field "+" type
+shape -> value
+signal -> "xLabelAngle"
+signal -> "yLabelAngle"
+signals -> "[{'name': 'xLabelAngle', 'value': 0, 'bind': {'input': 'range', 'min': -360, 'max': 360}}, {'name': 'yLabelAngle', 'value': 0, 'bind': {'input': 'range', 'min': -360, 'max': 360}}]"
+size -> "independent"
+size -> aggregate
+size -> aggregate "+" field "+" type
+size -> bin "+" field
+size -> condition "+" value
+size -> expr
+size -> field "+" legend "+" scale "+" title "+" type
+size -> field "+" scale "+" type
+size -> field "+" type
+size -> value
+sort -> "-x"
+sort -> "['MSFT', 'AAPL', 'IBM', 'AMZN']"
+sort -> "['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun']"
+sort -> "descending"
+sort -> field
+sort -> field "+" op
+sort -> field "+" op "+" order
+sort -> op "+" order
+spacing -> "0"
+spacing -> "10"
+spacing -> "15"
+spacing -> "5"
+spacing -> row
+spec -> encoding "+" height "+" layer
+spec -> encoding "+" height "+" mark "+" view "+" width
+spec -> encoding "+" height "+" mark "+" width
+spec -> encoding "+" mark
+spec -> encoding "+" mark "+" selection
+spec -> encoding "+" mark "+" width
+spec -> facet "+" spec
+spec -> layer
+spec -> layer "+" width
+stack -> "None"
+stack -> "center"
+stack -> "normalize"
+stack -> "zero"
+step -> "1"
+step -> "10"
+step -> "12"
+step -> "13"
+step -> "15"
+step -> "17"
+stops -> "[{'offset': 0, 'color': 'white'}, {'offset': 1, 'color': 'darkgreen'}]"
+stroke -> ""
+stroke -> "#e34a33"
+stroke -> "None"
+stroke -> "black"
+stroke -> "transparent"
+strokeDash -> field "+" type
+strokeWidth -> "0"
+strokeWidth -> "1"
+strokeWidth -> "2"
+strokeWidth -> expr
+style -> label "+" tick
+test -> "datum.open < datum.close"
+test -> "datum['IMDB Rating'] === null || datum['Rotten Tomatoes Rating'] === null"
+test -> equal "+" field "+" timeUnit
+text -> "['Weekly Weather', 'Observations and Predictions']"
+text -> aggregate "+" field "+" format "+" type
+text -> align "+" dx "+" dy
+text -> field "+" type
+theta -> bin "+" field
+thickness -> "2"
+tick -> bandSize "+" thickness
+tick -> orient
+tickBand -> "extent"
+tickColor -> "#ccc"
+tickColor -> "#ddd"
+tickColor -> condition "+" value
+tickCount -> "11"
+tickCount -> "5"
+tickCount -> "8"
+tickDash -> condition "+" value
+tickSize -> "0"
+tickSize -> "30"
+ticks -> "False"
+ticks -> "True"
+timeUnit -> "date"
+timeUnit -> "day"
+timeUnit -> "hours"
+timeUnit -> "month"
+timeUnit -> "monthdate"
+timeUnit -> "quarter"
+timeUnit -> "year"
+timeUnit -> "yearmonth"
+timeUnit -> "yearmonthdate"
+timeUnitBand -> "0.7"
+title -> ""
+title -> "Annual Global Deaths"
+title -> "Body Mass (g)"
+title -> "CO2 concentration in ppm"
+title -> "Country"
+title -> "Daily Max Temperatures (C) in Seattle, WA"
+title -> "Daily Temperature Range (C)"
+title -> "Date in 2009"
+title -> "Date"
+title -> "Day"
+title -> "Distribution of Body Mass of Penguins"
+title -> "Horsepower"
+title -> "IMDB Rating (binned)"
+title -> "IMDB Rating"
+title -> "Life Expectancy (years)"
+title -> "Max Temperature and Rolling Mean"
+title -> "Mean of US and Worldwide Gross"
+title -> "Miles per Gallon (95% CIs)"
+title -> "Month of the year"
+title -> "Month"
+title -> "None"
+title -> "Number of Cars"
+title -> "Price"
+title -> "Rating Delta"
+title -> "Relative Frequency"
+title -> "Seattle Temperature Normals"
+title -> "Seattle Temperature Range, 2012-2015"
+title -> "Seattle Weather, 2012-2015"
+title -> "Symbol"
+title -> "Temperature (F)"
+title -> "Time"
+title -> "Top Directors by Average Worldwide Gross"
+title -> "Weather type"
+title -> "Year into Decade"
+title -> "count"
+title -> "date"
+title -> "population"
+title -> "price"
+title -> frame "+" text
+titleAlign -> "left"
+titleAngle -> "0"
+titleFontSize -> "20"
+titleLimit -> "150"
+titlePadding -> "-4"
+titlePadding -> "25"
+titleX -> "5"
+titleY -> "-5"
+toggle -> "False"
+toggle -> "event.altKey && event.shiftKey"
+toggle -> "event.altKey"
+tooltip -> "True"
+tooltip -> "[{'field': 'Origin', 'type': 'nominal'}, {'field': 'Cylinders', 'type': 'quantitative'}]"
+tooltip -> "[{'timeUnit': 'yearmonthdate', 'field': 'date'}, {'field': 'temp_max', 'type': 'quantitative'}, {'field': 'temp_min', 'type': 'quantitative'}]"
+tooltip -> aggregate "+" field
+tooltip -> content
+tooltip -> field "+" type
+translate -> "[mousedown[!event.shiftKey], mouseup] > mousemove"
+translate -> "[mousedown[event.shiftKey], mouseup] > mousemove"
+translate -> "[mousedown[event.shiftKey], window:mouseup] > window:mousemove!"
+type -> "albersUsa"
+type -> "area"
+type -> "bar"
+type -> "boxplot"
+type -> "circle"
+type -> "equalEarth"
+type -> "errorband"
+type -> "errorbar"
+type -> "geojson"
+type -> "interval"
+type -> "line"
+type -> "log"
+type -> "multi"
+type -> "nominal"
+type -> "ordinal"
+type -> "point"
+type -> "quantitative"
+type -> "rect"
+type -> "single"
+type -> "sqrt"
+type -> "temporal"
+value -> "#000"
+value -> "#06982d"
+value -> "#aaa"
+value -> "#ae1325"
+value -> "#ff9900"
+value -> "0.2"
+value -> "0.5"
+value -> "0.7"
+value -> "1"
+value -> "10"
+value -> "100"
+value -> "2"
+value -> "200"
+value -> "250"
+value -> "300"
+value -> "50"
+value -> "75"
+value -> "M0,0.2L0.2351,0.3236 0.1902,0.0618 0.3804,-0.1236 0.1175,-0.1618 0,-0.4 -0.1175,-0.1618 -0.3804,-0.1236 -0.1902,0.0618 -0.2351,0.3236 0,0.2Z"
+value -> "None"
+value -> "[2, 2]"
+value -> "[]"
+value -> "black"
+value -> "circle"
+value -> "grey"
+value -> "red"
+value -> "square"
+value -> "steelblue"
+value -> "teal"
+vconcat -> "[{'encoding': {'color': {'condition': {'selection': 'brush', 'title': 'Weather', 'field': 'weather', 'type': 'nominal', 'scale': {'domain': ['sun', 'fog', 'drizzle', 'rain', 'snow'], 'range': ['#e7ba52', '#a7a7a7', '#aec7e8', '#1f77b4', '#9467bd']}}, 'value': 'lightgray'}, 'size': {'title': 'Precipitation', 'field': 'precipitation', 'scale': {'domain': [-1, 50]}, 'type': 'quantitative'}, 'x': {'field': 'date', 'timeUnit': 'monthdate', 'title': 'Date', 'axis': {'format': '%b'}}, 'y': {'title': 'Maximum Daily Temperature (C)', 'field': 'temp_max', 'scale': {'domain': [-5, 40]}, 'type': 'quantitative'}}, 'width': 600, 'height': 300, 'mark': 'point', 'selection': {'brush': {'encodings': ['x'], 'type': 'interval'}}, 'transform': [{'filter': {'selection': 'click'}}]}, {'encoding': {'color': {'condition': {'selection': 'click', 'field': 'weather', 'scale': {'domain': ['sun', 'fog', 'drizzle', 'rain', 'snow'], 'range': ['#e7ba52', '#a7a7a7', '#aec7e8', '#1f77b4', '#9467bd']}}, 'value': 'lightgray'}, 'x': {'aggregate': 'count'}, 'y': {'title': 'Weather', 'field': 'weather'}}, 'width': 600, 'mark': 'bar', 'selection': {'click': {'encodings': ['color'], 'type': 'multi'}}, 'transform': [{'filter': {'selection': 'brush'}}]}]"
+vconcat -> "[{'layer': [{'mark': 'circle', 'encoding': {'x': {'bin': {'maxbins': 10}, 'field': 'IMDB Rating'}, 'y': {'bin': {'maxbins': 10}, 'field': 'Rotten Tomatoes Rating'}, 'size': {'aggregate': 'count', 'title': 'All Movies Count'}, 'opacity': {'value': 0.4}}}, {'transform': [{'filter': {'selection': 'pts'}}], 'mark': 'circle', 'encoding': {'x': {'bin': {'maxbins': 10}, 'field': 'IMDB Rating'}, 'y': {'bin': {'maxbins': 10}, 'field': 'Rotten Tomatoes Rating'}, 'size': {'aggregate': 'count', 'title': 'Selected Category Count'}}}], 'resolve': {'legend': {'size': 'independent'}}}, {'width': 330, 'height': 120, 'mark': 'bar', 'selection': {'pts': {'type': 'single', 'encodings': ['x']}}, 'encoding': {'x': {'field': 'Major Genre', 'axis': {'labelAngle': -40}}, 'y': {'aggregate': 'count'}, 'color': {'condition': {'selection': 'pts', 'value': 'steelblue'}, 'value': 'grey'}}}]"
+vconcat -> "[{'layer': [{'mark': 'rect', 'encoding': {'x': {'bin': {'maxbins': 10}, 'field': 'IMDB Rating'}, 'y': {'bin': {'maxbins': 10}, 'field': 'Rotten Tomatoes Rating'}, 'color': {'aggregate': 'count', 'legend': {'title': 'All Movies Count', 'direction': 'horizontal', 'gradientLength': 120}}}}, {'transform': [{'filter': {'selection': 'pts'}}], 'mark': 'point', 'encoding': {'x': {'bin': {'maxbins': 10}, 'field': 'IMDB Rating'}, 'y': {'bin': {'maxbins': 10}, 'field': 'Rotten Tomatoes Rating'}, 'size': {'aggregate': 'count', 'legend': {'title': 'Selected Category Count'}}, 'color': {'value': '#666'}}}]}, {'width': 330, 'height': 120, 'mark': 'bar', 'selection': {'pts': {'type': 'single', 'encodings': ['x']}}, 'encoding': {'x': {'field': 'Major Genre', 'axis': {'labelAngle': -40}}, 'y': {'aggregate': 'count'}, 'color': {'condition': {'selection': 'pts', 'value': 'steelblue'}, 'value': 'grey'}}}]"
+vconcat -> "[{'mark': 'bar', 'encoding': {'x': {'timeUnit': 'month', 'field': 'date', 'type': 'ordinal'}, 'y': {'aggregate': 'mean', 'field': 'precipitation', 'type': 'quantitative'}}}, {'mark': 'point', 'encoding': {'x': {'field': 'temp_min', 'type': 'quantitative', 'bin': True}, 'y': {'field': 'temp_max', 'type': 'quantitative', 'bin': True}, 'size': {'aggregate': 'count', 'type': 'quantitative'}}}]"
+vconcat -> "[{'mark': 'bar', 'height': 60, 'encoding': {'x': {'bin': True, 'field': 'IMDB Rating', 'axis': None}, 'y': {'aggregate': 'count', 'scale': {'domain': [0, 1000]}, 'title': ''}}}, {'spacing': 15, 'bounds': 'flush', 'hconcat': [{'mark': 'rect', 'encoding': {'x': {'bin': True, 'field': 'IMDB Rating'}, 'y': {'bin': True, 'field': 'Rotten Tomatoes Rating'}, 'color': {'aggregate': 'count'}}}, {'mark': 'bar', 'width': 60, 'encoding': {'y': {'bin': True, 'field': 'Rotten Tomatoes Rating', 'axis': None}, 'x': {'aggregate': 'count', 'scale': {'domain': [0, 1000]}, 'title': ''}}}]}]"
+vconcat -> "[{'mark': {'type': 'text', 'baseline': 'middle', 'align': 'center'}, 'encoding': {'x': {'aggregate': 'min', 'field': 'xc', 'title': 'Origin', 'axis': {'orient': 'top'}}, 'color': {'field': 'Origin', 'legend': None}, 'text': {'field': 'Origin'}}}, {'layer': [{'mark': {'type': 'rect'}, 'encoding': {'x': {'field': 'nx', 'type': 'quantitative', 'axis': None}, 'x2': {'field': 'nx2'}, 'y': {'field': 'ny', 'type': 'quantitative'}, 'y2': {'field': 'ny2'}, 'color': {'field': 'Origin', 'type': 'nominal', 'legend': None}, 'opacity': {'field': 'Cylinders', 'type': 'quantitative', 'legend': None}, 'tooltip': [{'field': 'Origin', 'type': 'nominal'}, {'field': 'Cylinders', 'type': 'quantitative'}]}}, {'mark': {'type': 'text', 'baseline': 'middle'}, 'encoding': {'x': {'field': 'xc', 'type': 'quantitative', 'axis': None}, 'y': {'field': 'yc', 'type': 'quantitative', 'axis': {'title': 'Cylinders'}}, 'text': {'field': 'Cylinders', 'type': 'nominal'}}}]}]"
+vconcat -> "[{'mark': {'type': 'text', 'baseline': 'middle', 'align': 'center'}, 'encoding': {'x': {'aggregate': 'min', 'field': 'xc', 'title': 'Origin', 'axis': {'orient': 'top'}}, 'color': {'field': 'Origin', 'legend': None}, 'text': {'field': 'Origin'}}}, {'layer': [{'mark': {'type': 'rect'}, 'encoding': {'x': {'field': 'x', 'type': 'quantitative', 'axis': None}, 'x2': {'field': 'x2'}, 'y': {'field': 'y', 'type': 'quantitative'}, 'y2': {'field': 'y2'}, 'color': {'field': 'Origin', 'type': 'nominal', 'legend': None}, 'opacity': {'field': 'Cylinders', 'type': 'quantitative', 'legend': None}, 'tooltip': [{'field': 'Origin', 'type': 'nominal'}, {'field': 'Cylinders', 'type': 'quantitative'}]}}, {'mark': {'type': 'text', 'baseline': 'middle'}, 'encoding': {'x': {'field': 'xc', 'type': 'quantitative', 'axis': None}, 'y': {'field': 'yc', 'type': 'quantitative', 'axis': {'title': 'Cylinders'}}, 'text': {'field': 'Cylinders', 'type': 'nominal'}}}]}]"
+vconcat -> "[{'selection': {'brush': {'type': 'interval', 'encodings': ['x', 'y'], 'resolve': 'global'}}, 'mark': 'point', 'encoding': {'x': {'field': 'Miles_per_Gallon', 'type': 'quantitative'}, 'y': {'field': 'Horsepower', 'type': 'quantitative'}}}, {'mark': 'point', 'selection': {'grid': {'type': 'interval', 'bind': 'scales'}}, 'encoding': {'x': {'field': 'Displacement', 'type': 'quantitative'}, 'y': {'field': 'Acceleration', 'type': 'quantitative'}, 'color': {'value': 'red', 'condition': {'selection': 'brush', 'value': 'steelblue'}}}}]"
+vconcat -> "[{'selection': {'brush': {'type': 'interval'}}, 'mark': 'point', 'encoding': {'x': {'field': 'Horsepower', 'type': 'quantitative'}, 'y': {'field': 'Miles_per_Gallon', 'type': 'quantitative'}}}, {'transform': [{'filter': {'and': ['datum.Weight_in_lbs > 3000', {'selection': 'brush'}]}}], 'mark': 'point', 'encoding': {'x': {'field': 'Acceleration', 'type': 'quantitative', 'scale': {'domain': [0, 25]}}, 'y': {'field': 'Displacement', 'type': 'quantitative', 'scale': {'domain': [0, 500]}}}}]"
+vconcat -> "[{'selection': {'brush': {'type': 'interval'}}, 'mark': 'point', 'encoding': {'x': {'field': 'Horsepower', 'type': 'quantitative'}, 'y': {'field': 'Miles_per_Gallon', 'type': 'quantitative'}}}, {'transform': [{'filter': {'selection': 'brush'}}], 'mark': 'point', 'encoding': {'x': {'field': 'Acceleration', 'type': 'quantitative', 'scale': {'domain': [0, 25]}}, 'y': {'field': 'Displacement', 'type': 'quantitative', 'scale': {'domain': [0, 500]}}}}]"
+vconcat -> "[{'selection': {'region': {'type': 'interval', 'bind': 'scales'}}, 'mark': 'point', 'encoding': {'x': {'field': 'Horsepower', 'type': 'quantitative'}, 'y': {'field': 'Miles_per_Gallon', 'type': 'quantitative'}}}, {'mark': 'point', 'encoding': {'x': {'field': 'Horsepower', 'type': 'quantitative'}, 'y': {'field': 'Acceleration', 'type': 'quantitative'}}}]"
+vconcat -> "[{'title': 'Annual and Total Mean Precipitation from 2012-2015', 'mark': 'line', 'encoding': {'y': {'field': 'precipitation', 'aggregate': 'mean', 'axis': {'title': None}}, 'x': {'field': 'date', 'timeUnit': 'month', 'type': 'ordinal'}, 'row': {'field': 'date', 'timeUnit': 'year', 'header': {'title': None}}}, 'height': 30}, {'mark': 'line', 'encoding': {'x': {'field': 'date', 'timeUnit': 'month', 'type': 'ordinal'}, 'y': {'field': 'precipitation', 'aggregate': 'mean', 'axis': {'title': None}}}, 'height': 50}]"
+vconcat -> "[{'title': 'Ratings', 'repeat': {'column': ['Rotten Tomatoes Rating', 'IMDB Rating']}, 'spec': {'width': 150, 'height': 50, 'mark': 'bar', 'encoding': {'x': {'field': {'repeat': 'column'}, 'bin': {'maxbins': 20}}, 'y': {'aggregate': 'count'}}}}, {'title': 'Gross', 'repeat': {'column': ['US Gross', 'Worldwide Gross']}, 'spec': {'width': 150, 'height': 50, 'encoding': {'x': {'field': {'repeat': 'column'}, 'bin': {'maxbins': 20}}, 'y': {'aggregate': 'count'}}, 'mark': 'bar'}}]"
+vconcat -> "[{'width': 480, 'mark': 'area', 'encoding': {'x': {'field': 'date', 'type': 'temporal', 'scale': {'domain': {'selection': 'brush'}}, 'axis': {'title': ''}}, 'y': {'field': 'price', 'type': 'quantitative'}}}, {'width': 480, 'height': 60, 'mark': 'area', 'selection': {'brush': {'type': 'interval', 'encodings': ['x']}}, 'encoding': {'x': {'field': 'date', 'type': 'temporal'}, 'y': {'field': 'price', 'type': 'quantitative', 'axis': {'tickCount': 3, 'grid': False}}}}]"
+vconcat -> "[{'width': 963, 'height': 100, 'selection': {'brush': {'type': 'interval', 'encodings': ['x']}}, 'mark': 'bar', 'encoding': {'x': {'field': 'time', 'bin': {'maxbins': 30}}, 'y': {'aggregate': 'count'}}}, {'width': 963, 'height': 100, 'mark': 'bar', 'encoding': {'x': {'field': 'time', 'bin': {'maxbins': 30, 'extent': {'selection': 'brush'}}}, 'y': {'aggregate': 'count'}}}]"
+view -> bind "+" type
+view -> cursor
+view -> fill
+view -> fill "+" step
+view -> step
+view -> step "+" strokeWidth
+view -> stroke
+width -> "150"
+width -> "800"
+width -> step
+x -> "[55, 160]"
+x -> "independent"
+x -> "shared"
+x -> aggregate
+x -> aggregate "+" axis "+" field "+" title
+x -> aggregate "+" axis "+" title
+x -> aggregate "+" field
+x -> aggregate "+" field "+" scale "+" type
+x -> aggregate "+" field "+" title
+x -> aggregate "+" field "+" title "+" type
+x -> aggregate "+" field "+" type
+x -> axis "+" field
+x -> axis "+" field "+" timeUnit
+x -> axis "+" field "+" timeUnit "+" title
+x -> axis "+" field "+" timeUnit "+" title "+" type
+x -> axis "+" field "+" timeUnit "+" type
+x -> axis "+" field "+" title "+" type
+x -> axis "+" field "+" type
+x -> axis "+" title "+" type
+x -> axis "+" type
+x -> band "+" field "+" timeUnit
+x -> bin "+" field
+x -> bin "+" field "+" scale
+x -> bin "+" field "+" sort "+" type
+x -> bin "+" field "+" title
+x -> bin "+" field "+" type
+x -> field
+x -> field "+" scale
+x -> field "+" scale "+" title "+" type
+x -> field "+" scale "+" type
+x -> field "+" sort
+x -> field "+" sort "+" type
+x -> field "+" timeUnit
+x -> field "+" timeUnit "+" title "+" type
+x -> field "+" timeUnit "+" type
+x -> field "+" title "+" type
+x -> field "+" type
+x1 -> "1"
+x2 -> "1"
+x2 -> field
+xenc -> bind "+" fields "+" nearest "+" on "+" resolve "+" type
+y -> "[13, 37]"
+y -> "independent"
+y -> aggregate
+y -> aggregate "+" axis "+" field "+" stack
+y -> aggregate "+" axis "+" field "+" title
+y -> aggregate "+" field
+y -> aggregate "+" field "+" stack "+" title
+y -> aggregate "+" field "+" title
+y -> aggregate "+" field "+" title "+" type
+y -> aggregate "+" field "+" type
+y -> aggregate "+" title
+y -> aggregate "+" type
+y -> axis "+" band "+" field "+" scale
+y -> axis "+" field
+y -> axis "+" field "+" scale "+" type
+y -> axis "+" field "+" sort
+y -> axis "+" field "+" sort "+" timeUnit "+" type
+y -> axis "+" field "+" title "+" type
+y -> axis "+" field "+" type
+y -> axis "+" scale "+" type
+y -> axis "+" type
+y -> bin "+" field
+y -> bin "+" field "+" type
+y -> field
+y -> field "+" scale "+" title "+" type
+y -> field "+" scale "+" type
+y -> field "+" sort "+" timeUnit "+" type
+y -> field "+" sort "+" title "+" type
+y -> field "+" sort "+" type
+y -> field "+" stack "+" type
+y -> field "+" timeUnit
+y -> field "+" timeUnit "+" title "+" type
+y -> field "+" timeUnit "+" type
+y -> field "+" title "+" type
+y -> field "+" type
+y -> scale "+" title "+" type
+y1 -> "1"
+y2 -> "0"
+y2 -> aggregate "+" field
+y2 -> field
+yOffset -> "5"
+year -> "2002"
+year -> "2012"
+zero -> "False"
+zindex -> "1"
+zoom -> "wheel![event.shiftKey]"
+Nothing -> None

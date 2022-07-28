@@ -1,0 +1,45 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple pie chart with labels.",
+  "data": {
+    "values": [
+      {"country": "Ships/Air", "share": 0.037, "year": 2018},
+      {"country": "China", "share": 0.288, "year": 2018},
+      {"country": "US", "share": 0.14, "year": 2018},
+      {"country": "India", "share": 0.073, "year": 2018},
+      {"country": "Russia", "share": 0.048, "year": 2018},
+      {"country": "Japan", "share": 0.031, "year": 2018},
+      {"country": "Germany", "share": 0.019, "year": 2018},
+      {"country": "United Kingdom", "share": 0.01, "year": 2018}
+    ]
+  },
+  "encoding": {
+    "theta": {"field": "share", "type": "quantitative", "stack": true},
+    "order": {"field": "share", "type": "quantitative", "sort": "descending"}
+  },
+  "layer": [
+    {
+      "mark": {"type": "arc", "outerRadius": 80},
+      "encoding": {
+        "color": {
+          "field": "country",
+          "type": "nominal",
+          "legend": null,
+          "sort": null
+        }
+      }
+    },
+    {
+      "mark": {"type": "text", "radius": 100},
+      "encoding": {"text": {"field": "country", "type": "nominal"}}
+    },
+    {
+      "mark": {"type": "text", "radius": 55},
+      "encoding": {
+        "text": {"field": "share", "type": "quantitative", "format": ".1%"}
+      }
+    }
+  ],
+  "view": {"stroke": null},
+  "config": {}
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple bar chart with embedded data.",
+  "data": {
+    "values": [
+      {
+        "MPAA_Rating": "G",
+        "Worldwide_Gross": 783839505,
+        "US_Gross": 328539505
+      },
+      {
+        "MPAA_Rating": "Not Rated",
+        "Worldwide_Gross": 243470856,
+        "US_Gross": 23380203
+      },
+      {
+        "MPAA_Rating": "PG",
+        "Worldwide_Gross": 792910554,
+        "US_Gross": 435110554
+      },
+      {
+        "MPAA_Rating": "PG-13",
+        "Worldwide_Gross": 923067947,
+        "US_Gross": 357067947
+      },
+      {
+        "MPAA_Rating": "R",
+        "Worldwide_Gross": 364480746,
+        "US_Gross": 158340892
+      }
+    ]
+  },
+  "mark": "circle",
+  "encoding": {
+    "y": {
+      "field": "US_Gross",
+      "type": "quantitative",
+      "axis": { "labelAngle": 0 }
+    },
+    "x": {
+      "field": "Worldwide_Gross",
+      "type": "quantitative"
+    },
+    "color": { "field": "MPAA_Rating", "sort": null },
+    "opacity": { "value": 1 }
+  },
+  "config": {}
+}

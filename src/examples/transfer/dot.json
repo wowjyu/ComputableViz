@@ -1,0 +1,37 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A Wilkinson Dot Plot",
+    "data": {
+      "values": [
+        {"data": 1},
+        {"data": 1},
+        {"data": 1},
+        {"data": 1},
+        {"data": 1},
+        {"data": 1},
+        {"data": 1},
+        {"data": 1},
+        {"data": 1},
+        {"data": 1},
+        {"data": 2},
+        {"data": 2},
+        {"data": 2},
+        {"data": 3},
+        {"data": 3},
+        {"data": 4},
+        {"data": 4},
+        {"data": 4},
+        {"data": 4},
+        {"data": 4},
+        {"data": 4}
+      ]
+    },
+    "height": 200,
+    "width": 300,
+    "transform": [{"window": [{"op": "rank", "as": "id"}], "groupby": ["data"]}],
+    "mark": {"type": "circle", "opacity": 1},
+    "encoding": {
+      "x": {"field": "data", "type": "ordinal"},
+      "y": {"field": "id", "type": "quantitative", "title": "Count of Records"}
+    }
+  }

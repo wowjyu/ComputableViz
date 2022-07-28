@@ -1,0 +1,58 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple pie chart with labels.",
+  "data": {
+    "values": [
+      {"country": "Other", "share": 0.21, "year": 2020},
+      {"country": "China", "share": 0.28, "year": 2020},
+      {"country": "US", "share": 0.15, "year": 2020},
+      {"country": "India", "share": 0.07, "year": 2020},
+      {"country": "Russia", "share": 0.05, "year": 2020},
+      {"country": "Japan", "share": 0.03, "year": 2020},
+      {"country": "Germany", "share": 0.02, "year": 2020},
+      {"country": "South Korea", "share": 0.02, "year": 2020},
+      {"country": "Iran", "share": 0.02, "year": 2020},
+      {"country": "Canada", "share": 0.02, "year": 2020},
+      {"country": "Saudi Arabia", "share": 0.02, "year": 2020},
+      {"country": "Brazil", "share": 0.01, "year": 2020},
+      {"country": "Mexico", "share": 0.01, "year": 2020},
+      {"country": "Indonesia", "share": 0.02, "year": 2020},
+      {"country": "South Africa", "share": 0.01, "year": 2020},
+      {"country": "United Kingdom", "share": 0.01, "year": 2020},
+      {"country": "Australia", "share": 0.01, "year": 2020},
+      {"country": "Italy", "share": 0.01, "year": 2020},
+      {"country": "Turkey", "share": 0.01, "year": 2020},
+      {"country": "France", "share": 0.01, "year": 2020},
+      {"country": "Poland", "share": 0.01, "year": 2020}
+    ]
+  },
+  "encoding": {
+    "theta": {"field": "share", "type": "quantitative", "stack": true},
+    "order": {"field": "share", "type": "quantitative", "sort": "descending"}
+  },
+  "layer": [
+    {
+      "mark": {"type": "arc", "outerRadius": 80},
+      "encoding": {
+        "color": {
+          "field": "country",
+          "type": "nominal",
+          "legend": null,
+          "sort": null
+        }
+      }
+    },
+    {
+      "mark": {"type": "text", "radius": 100},
+      "encoding": {"text": {"field": "country", "type": "nominal"}}
+    },
+    {
+      "mark": {"type": "text", "radius": 55},
+      "encoding": {
+        "text": {"field": "share", "type": "quantitative", "format": ".0%"}
+      }
+    }
+  ],
+  "view": {"stroke": null},
+  "config": {}
+}

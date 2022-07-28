@@ -1,0 +1,1676 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple bar chart with embedded data.",
+  "data": {
+    "values": [
+      {
+        "Gross": 1087521,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 3.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 6026908,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 3.8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 168841459,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 8.1,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 0,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 18435,
+        "Major_Genre": "Thriller/Suspense",
+        "IMDB_Rating": 6.3,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 72544,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 6.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 1027228,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 7.1,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 11744960,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 3.2,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 172569,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 4301000,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 6.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 242895809,
+        "Major_Genre": "Romantic Comedy",
+        "IMDB_Rating": 7.1,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 132999811,
+        "Major_Genre": "Adventure",
+        "IMDB_Rating": 4.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 54243125,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 7.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 107217396,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 6.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 212400000,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 5.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 64359,
+        "Major_Genre": "Romantic Comedy",
+        "IMDB_Rating": 5.7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 669276,
+        "Major_Genre": "Adventure",
+        "IMDB_Rating": 7.3,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 7900000,
+        "Major_Genre": "Western",
+        "IMDB_Rating": 5.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 36299670,
+        "Major_Genre": "Adventure",
+        "IMDB_Rating": 3.2,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 274299,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 7.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 107822813,
+        "Major_Genre": "Romantic Comedy",
+        "IMDB_Rating": 6.8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 9598,
+        "Major_Genre": "Horror",
+        "IMDB_Rating": 6.1,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 24103594,
+        "Major_Genre": "Adventure",
+        "IMDB_Rating": 5.8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 78800000,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 8.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 14900000,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 6.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 23616,
+        "Major_Genre": "Thriller/Suspense",
+        "IMDB_Rating": 5.1,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 42000000,
+        "Major_Genre": "Adventure",
+        "IMDB_Rating": 5.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 246100000,
+        "Major_Genre": "Adventure",
+        "IMDB_Rating": 7.3,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 16581575,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 5,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 12671300,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 6.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 141247413,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 6.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 5274005,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 403476931,
+        "Major_Genre": "Musical",
+        "IMDB_Rating": 3.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 4357406,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 4.8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 276665036,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 6.1,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 119180938,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 5,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 16118077,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6.8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 1610194,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6.2,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 33139618,
+        "Major_Genre": "Thriller/Suspense",
+        "IMDB_Rating": 8.3,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 8589831,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 7.3,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 6300000,
+        "Major_Genre": "Thriller/Suspense",
+        "IMDB_Rating": 7.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 2962051,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6.7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 407488,
+        "Major_Genre": "Adventure",
+        "IMDB_Rating": 7.2,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 175516617,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 7.2,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 10426506,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 215862692,
+        "Major_Genre": "Horror",
+        "IMDB_Rating": 6.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 148345997,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 5.8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 209000000,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 8.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 9929135,
+        "Major_Genre": "Black Comedy",
+        "IMDB_Rating": 8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 609042,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6.3,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 266822354,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 6.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 336529144,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 5.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 411348924,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 7.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 243470856,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 85343,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 174682,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 182291969,
+        "Major_Genre": "Thriller/Suspense",
+        "IMDB_Rating": 7.3,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 207500000,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 6.8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 3479302,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 102825796,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 5.8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 1549000,
+        "Major_Genre": "Thriller/Suspense",
+        "IMDB_Rating": 4.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 60209334,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 5.2,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 814666,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 5.8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 19294144,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 13024170,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 6.5,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 1647780,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 8.1,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 4134,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 5.1,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 117615211,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6.5,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 32092,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 3.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 56598476,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 6.7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 3073428,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 7.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 17006158,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 152022333,
+        "Major_Genre": "Adventure",
+        "IMDB_Rating": 4.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 925402,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 673780,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 7.3,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 713413,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 7.8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 62546695,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 7.3,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 159387195,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 7.2,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 110400000,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 8.1,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 282300000,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 5.7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 20278055,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6.1,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 10017322,
+        "Major_Genre": "Adventure",
+        "IMDB_Rating": 5.3,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 100833145,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 5321508,
+        "Major_Genre": "Western",
+        "IMDB_Rating": 8.8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 71644,
+        "Major_Genre": "Thriller/Suspense",
+        "IMDB_Rating": 6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 32051917,
+        "Major_Genre": "Thriller/Suspense",
+        "IMDB_Rating": 6.5,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 84970337,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 4.3,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 25532388,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 246400000,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 7.2,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 178200000,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 5.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 158908290,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 5.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 364480746,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 7.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 104364680,
+        "Major_Genre": "Adventure",
+        "IMDB_Rating": 6.2,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 129319,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 5,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 22032635,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 21089146,
+        "Major_Genre": "Horror",
+        "IMDB_Rating": 6.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 83088295,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 7.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 16556,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 7.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 542909,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 111721000,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 5828466,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 8.1,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 34600000,
+        "Major_Genre": "Musical",
+        "IMDB_Rating": 6.8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 37831658,
+        "Major_Genre": "Romantic Comedy",
+        "IMDB_Rating": 6.8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 25426861,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 5.3,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 234400000,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 5.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 792910554,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 7.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 5046118,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 7.1,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 31425,
+        "Major_Genre": "Horror",
+        "IMDB_Rating": 5.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 25728961,
+        "Major_Genre": "Horror",
+        "IMDB_Rating": 7.1,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 2104439,
+        "Major_Genre": "Black Comedy",
+        "IMDB_Rating": 5.7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 11497497,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 6.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 368900000,
+        "Major_Genre": "Thriller/Suspense",
+        "IMDB_Rating": 7.8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 19892205,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 4.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 358500000,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 4.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 61308153,
+        "Major_Genre": "Thriller/Suspense",
+        "IMDB_Rating": 6.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 77070,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 6.1,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 1412799,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 679400525,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 8.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 125212904,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 7.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 27936778,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 91062,
+        "Major_Genre": "Thriller/Suspense",
+        "IMDB_Rating": 6.3,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 51204567,
+        "Major_Genre": "Thriller/Suspense",
+        "IMDB_Rating": 8.3,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 127361412,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 5.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 270340892,
+        "Major_Genre": "Thriller/Suspense",
+        "IMDB_Rating": 5.5,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 10514,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 181489203,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 5.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 14853474,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 6.7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 1179462,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6.5,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 38564422,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 6.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 2335352,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 5.5,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 2652515,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6.8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 12604,
+        "Major_Genre": "Musical",
+        "IMDB_Rating": 5.2,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 291632124,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 6.8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 4880941,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 4.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 356429941,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 7.2,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 36404841,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 4.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 5691854,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6.7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 28835,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 70906973,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 8.2,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 1152411,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 7.5,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 15473333,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6.3,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 115021008,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 6.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 390525192,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 8.2,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 5746453,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 6.5,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 3700,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 1.5,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 13738574,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 3.8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 12900000,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 7.2,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 358994850,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 5.8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 476684675,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 10161099,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 7.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 11768371,
+        "Major_Genre": "Documentary",
+        "IMDB_Rating": 8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 38623460,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 6.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 14938149,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 7.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 655538,
+        "Major_Genre": "Adventure",
+        "IMDB_Rating": 6.1,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 26570048,
+        "Major_Genre": "Adventure",
+        "IMDB_Rating": 5.8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 1320043,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 2301777,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 5.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 162605,
+        "Major_Genre": "Documentary",
+        "IMDB_Rating": 2.2,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 817400878,
+        "Major_Genre": "Adventure",
+        "IMDB_Rating": 6.5,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 27682712,
+        "Major_Genre": "Adventure",
+        "IMDB_Rating": 4.1,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 884,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 3.5,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 35627222,
+        "Major_Genre": "Adventure",
+        "IMDB_Rating": 5.7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 836641,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6.1,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 2883661,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 7.2,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 8864699,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 5.7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 15716828,
+        "Major_Genre": "Adventure",
+        "IMDB_Rating": 6.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 58617334,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 5.3,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 9812870,
+        "Major_Genre": "Thriller/Suspense",
+        "IMDB_Rating": 4.8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 129832389,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 4.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 44342956,
+        "Major_Genre": "Adventure",
+        "IMDB_Rating": 5.8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 113487912,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 4.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 7555256,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 3.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 2461628,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 5.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 205400000,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 635305,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 7.2,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 262758310,
+        "Major_Genre": "Adventure",
+        "IMDB_Rating": 6.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 22730924,
+        "Major_Genre": "Thriller/Suspense",
+        "IMDB_Rating": 5.3,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 923067947,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 7.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 470700000,
+        "Major_Genre": "Horror",
+        "IMDB_Rating": 8.3,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 208900376,
+        "Major_Genre": "Horror",
+        "IMDB_Rating": 5.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 15728335,
+        "Major_Genre": "Horror",
+        "IMDB_Rating": 2.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 32575443,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 5.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 20412216,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6.7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 32223424,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 6.7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 14942422,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 7.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 19585,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 7.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 32430721,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 6.1,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 1353824,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 31517561,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 7.8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 504050219,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 7.8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 29317886,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 5.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 2542264,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 33447612,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 6.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 25317,
+        "Major_Genre": "Documentary",
+        "IMDB_Rating": 8.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 183316455,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 7.5,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 158500000,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 6.3,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 783839505,
+        "Major_Genre": "Adventure",
+        "IMDB_Rating": 8.2,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 5269990,
+        "Major_Genre": "Thriller/Suspense",
+        "IMDB_Rating": 7.3,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 66502573,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 7.1,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 27979399,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 5.7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 206400,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 12961389,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 7.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 319700000,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 6.5,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 4595000,
+        "Major_Genre": "Musical",
+        "IMDB_Rating": 6.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 200433,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 7.2,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 49800000,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 7.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 50003303,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 7.1,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 27731527,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 7.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 14873,
+        "Major_Genre": "Western",
+        "IMDB_Rating": 6.7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 6370115,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 5.5,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 51702929,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 4.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 343900000,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 6.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 101371017,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 6.3,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 18642318,
+        "Major_Genre": "Documentary",
+        "IMDB_Rating": 7.2,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 27572844,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 51973029,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 8.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 50752337,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 5.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 41267469,
+        "Major_Genre": "Romantic Comedy",
+        "IMDB_Rating": 6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 257516,
+        "Major_Genre": "Horror",
+        "IMDB_Rating": 5,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 4239767,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 5.8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 77224232,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 5.2,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 2108367,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 7.1,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 1366235,
+        "Major_Genre": "Romantic Comedy",
+        "IMDB_Rating": 6.7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 10039566,
+        "Major_Genre": "Romantic Comedy",
+        "IMDB_Rating": 5.8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 441286003,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 6.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 122133227,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 5.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 112006296,
+        "Major_Genre": "Horror",
+        "IMDB_Rating": 6.2,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 456481886,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 6.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 20133326,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 5.7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 103509,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 6831069,
+        "Major_Genre": "Romantic Comedy",
+        "IMDB_Rating": 6.7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 231716374,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 7.3,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 51041856,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 6.1,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 30000000,
+        "Major_Genre": "Horror",
+        "IMDB_Rating": 6.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 34872033,
+        "Major_Genre": "Horror",
+        "IMDB_Rating": 4.5,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 5835247,
+        "Major_Genre": "Horror",
+        "IMDB_Rating": 6.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 223564608,
+        "Major_Genre": "Horror",
+        "IMDB_Rating": 7.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 273814019,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 5.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 34668249,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 7.1,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 38590458,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 3.8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 12678312,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 3.3,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 4720371,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6.3,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 1987,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6.3,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 2844379,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 67823573,
+        "Major_Genre": "Thriller/Suspense",
+        "IMDB_Rating": 6.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 25697647,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 8667348,
+        "Major_Genre": "Thriller/Suspense",
+        "IMDB_Rating": 6.1,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 126247,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 2.5,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 5656388,
+        "Major_Genre": "Romantic Comedy",
+        "IMDB_Rating": 4.7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 347100000,
+        "Major_Genre": "Adventure",
+        "IMDB_Rating": 6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 4333569,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 142836382,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6.3,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 17220599,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 4.8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 4678513,
+        "Major_Genre": "Thriller/Suspense",
+        "IMDB_Rating": 7.5,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 28876702,
+        "Major_Genre": "Black Comedy",
+        "IMDB_Rating": 7.7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 334100000,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 7.5,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 889279,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 2.7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 36682170,
+        "Major_Genre": "Adventure",
+        "IMDB_Rating": 5.3,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 881950,
+        "Major_Genre": "Thriller/Suspense",
+        "IMDB_Rating": 4.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 4930,
+        "Major_Genre": "Documentary",
+        "IMDB_Rating": 3,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 45284974,
+        "Major_Genre": "Thriller/Suspense",
+        "IMDB_Rating": 8.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 0,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 5.7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 87400000,
+        "Major_Genre": "Adventure",
+        "IMDB_Rating": 7.1,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 212928762,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 8.9,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 31678778,
+        "Major_Genre": "Musical",
+        "IMDB_Rating": 6.5,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 2794056,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 18552460,
+        "Major_Genre": "Western",
+        "IMDB_Rating": 6.3,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 29197694,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 8.1,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 308700000,
+        "Major_Genre": "Action",
+        "IMDB_Rating": 6.6,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 390500000,
+        "Major_Genre": "Adventure",
+        "IMDB_Rating": 6.7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 31390587,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 6.8,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 23380203,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 8.4,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 4204857,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 7.5,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 38087756,
+        "Major_Genre": "Comedy",
+        "IMDB_Rating": 4.7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 386800358,
+        "Major_Genre": "Adventure",
+        "IMDB_Rating": 8.7,
+        "Country": "Worldwide"
+      },
+      {
+        "Gross": 10019109,
+        "Major_Genre": "Drama",
+        "IMDB_Rating": 7.7,
+        "Country": "Worldwide"
+      }
+    ]
+  },
+  "mark": "circle",
+  "encoding": {
+    "y": {
+      "field": "IMDB_Rating",
+      "type": "quantitative",
+      "axis": { "labelAngle": 0 }
+    },
+    "x": { "field": "Gross", "type": "quantitative" },
+    "color": { "field": "Major_Genre", "sort": null },
+    "opacity": { "value": 1 }
+  },
+  "config": {}
+}

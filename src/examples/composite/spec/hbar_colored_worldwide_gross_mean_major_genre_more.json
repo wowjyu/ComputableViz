@@ -1,0 +1,75 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple bar chart with embedded data.",
+  "data": {
+    "values": [
+      {
+        "Major_Genre": "Action",
+        "Gross": 150983539.5744680762,
+        "Country": "Worldwide"
+      },
+      {
+        "Major_Genre": "Adventure",
+        "Gross": 177169195.7916666567,
+        "Country": "Worldwide"
+      },
+      {
+        "Major_Genre": "Black Comedy",
+        "Gross": 23636758.6666666642,
+        "Country": "Worldwide"
+      },
+      {
+        "Major_Genre": "Comedy",
+        "Gross": 102799202.9482758641,
+        "Country": "Worldwide"
+      },
+      {
+        "Major_Genre": "Documentary",
+        "Gross": 16120708.1999999993,
+        "Country": "Worldwide"
+      },
+      {
+        "Major_Genre": "Drama",
+        "Gross": 70878872.5116279125,
+        "Country": "Worldwide"
+      },
+      {
+        "Major_Genre": "Horror",
+        "Gross": 107470445.2142857164,
+        "Country": "Worldwide"
+      },
+      {
+        "Major_Genre": "Musical",
+        "Gross": 104872662.599999994,
+        "Country": "Worldwide"
+      },
+      {
+        "Major_Genre": "Romantic Comedy",
+        "Gross": 60419485.1111111119,
+        "Country": "Worldwide"
+      },
+      {
+        "Major_Genre": "Thriller/Suspense",
+        "Gross": 65830524.5238095224,
+        "Country": "Worldwide"
+      },
+      { "Major_Genre": "Western", "Gross": 17947210.25, "Country": "Worldwide" }
+    ]
+  },
+  "mark": "bar",
+  "encoding": {
+    "y": {
+      "field": "Major_Genre",
+      "type": "ordinal",
+      "axis": { "labelAngle": 0 },
+      "sort": null
+    },
+    "x": {
+      "field": "Gross",
+      "type": "quantitative"
+    },
+    "color": { "field": "Major_Genre", "sort": null },
+    "opacity": { "value": 1 }
+  },
+  "config": {}
+}

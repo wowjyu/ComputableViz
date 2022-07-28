@@ -1,0 +1,835 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A Wilkinson Dot Plot",
+    "data": {
+        "values": [
+            {
+                "Year": 1971,
+                "Name": "opel 1900"
+            },
+            {
+                "Year": 1977,
+                "Name": "chrysler cordoba"
+            },
+            {
+                "Year": 1982,
+                "Name": "toyota starlet"
+            },
+            {
+                "Year": 1976,
+                "Name": "ford gran torino"
+            },
+            {
+                "Year": 1973,
+                "Name": "dodge dart custom"
+            },
+            {
+                "Year": 1971,
+                "Name": "ford galaxie 500"
+            },
+            {
+                "Year": 1977,
+                "Name": "ford mustang ii 2+2"
+            },
+            {
+                "Year": 1972,
+                "Name": "chevrolet impala"
+            },
+            {
+                "Year": 1970,
+                "Name": "ford mustang boss 302"
+            },
+            {
+                "Year": 1982,
+                "Name": "volkswagen jetta"
+            },
+            {
+                "Year": 1982,
+                "Name": "buick century limited"
+            },
+            {
+                "Year": 1977,
+                "Name": "chevrolet caprice classic"
+            },
+            {
+                "Year": 1975,
+                "Name": "volkswagen dasher"
+            },
+            {
+                "Year": 1978,
+                "Name": "volvo 264gl"
+            },
+            {
+                "Year": 1978,
+                "Name": "datsun b210 gx"
+            },
+            {
+                "Year": 1971,
+                "Name": "peugeot 304"
+            },
+            {
+                "Year": 1979,
+                "Name": "datsun 210"
+            },
+            {
+                "Year": 1976,
+                "Name": "ford maverick"
+            },
+            {
+                "Year": 1977,
+                "Name": "datsun 810"
+            },
+            {
+                "Year": 1982,
+                "Name": "ford escort 2h"
+            },
+            {
+                "Year": 1971,
+                "Name": "plymouth satellite custom"
+            },
+            {
+                "Year": 1982,
+                "Name": "ford ranger"
+            },
+            {
+                "Year": 1977,
+                "Name": "volkswagen dasher"
+            },
+            {
+                "Year": 1982,
+                "Name": "honda Accelerationord"
+            },
+            {
+                "Year": 1975,
+                "Name": "audi 100ls"
+            },
+            {
+                "Year": 1971,
+                "Name": "plymouth cricket"
+            },
+            {
+                "Year": 1978,
+                "Name": "ford fiesta"
+            },
+            {
+                "Year": 1972,
+                "Name": "ford pinto (sw)"
+            },
+            {
+                "Year": 1972,
+                "Name": "peugeot 504 (sw)"
+            },
+            {
+                "Year": 1977,
+                "Name": "volkswagen rabbit custom"
+            },
+            {
+                "Year": 1982,
+                "Name": "dodge charger 2.2"
+            },
+            {
+                "Year": 1979,
+                "Name": "plymouth horizon tc3"
+            },
+            {
+                "Year": 1973,
+                "Name": "maxda rx3"
+            },
+            {
+                "Year": 1978,
+                "Name": "honda civic cvcc"
+            },
+            {
+                "Year": 1970,
+                "Name": "chevy c20"
+            },
+            {
+                "Year": 1976,
+                "Name": "pontiac ventura sj"
+            },
+            {
+                "Year": 1973,
+                "Name": "chevrolet nova custom"
+            },
+            {
+                "Year": 1976,
+                "Name": "chevrolet chevette"
+            },
+            {
+                "Year": 1971,
+                "Name": "pontiac catalina brougham"
+            },
+            {
+                "Year": 1979,
+                "Name": "mercury grand marquis"
+            },
+            {
+                "Year": 1980,
+                "Name": "toyota corona liftback"
+            },
+            {
+                "Year": 1970,
+                "Name": "chevrolet impala"
+            },
+            {
+                "Year": 1979,
+                "Name": "amc concord dl 6"
+            },
+            {
+                "Year": 1970,
+                "Name": "plymouth cuda 340"
+            },
+            {
+                "Year": 1974,
+                "Name": "datsun 710"
+            },
+            {
+                "Year": 1975,
+                "Name": "peugeot 504"
+            },
+            {
+                "Year": 1980,
+                "Name": "dodge colt"
+            },
+            {
+                "Year": 1977,
+                "Name": "pontiac grand prix lj"
+            },
+            {
+                "Year": 1977,
+                "Name": "chevrolet concours"
+            },
+            {
+                "Year": 1978,
+                "Name": "mercury monarch ghia"
+            },
+            {
+                "Year": 1972,
+                "Name": "toyouta corona mark ii (sw)"
+            },
+            {
+                "Year": 1971,
+                "Name": "fiat 124b"
+            },
+            {
+                "Year": 1978,
+                "Name": "toyota corona"
+            },
+            {
+                "Year": 1979,
+                "Name": "pontiac lemans v6"
+            },
+            {
+                "Year": 1971,
+                "Name": "ford pinto"
+            },
+            {
+                "Year": 1970,
+                "Name": "chevrolet monte carlo"
+            },
+            {
+                "Year": 1975,
+                "Name": "volvo 244dl"
+            },
+            {
+                "Year": 1972,
+                "Name": "chrysler newport royal"
+            },
+            {
+                "Year": 1977,
+                "Name": "buick opel isuzu deluxe"
+            },
+            {
+                "Year": 1979,
+                "Name": "plymouth horizon"
+            },
+            {
+                "Year": 1974,
+                "Name": "amc hornet"
+            },
+            {
+                "Year": 1972,
+                "Name": "mercury marquis"
+            },
+            {
+                "Year": 1976,
+                "Name": "peugeot 504"
+            },
+            {
+                "Year": 1979,
+                "Name": "cadillac eldorado"
+            },
+            {
+                "Year": 1982,
+                "Name": "plymouth horizon 4"
+            },
+            {
+                "Year": 1975,
+                "Name": "saab 99le"
+            },
+            {
+                "Year": 1982,
+                "Name": "chevrolet citation"
+            },
+            {
+                "Year": 1970,
+                "Name": "dodge challenger se"
+            },
+            {
+                "Year": 1972,
+                "Name": "chevrolet chevelle concours (sw)"
+            },
+            {
+                "Year": 1970,
+                "Name": "chevrolet chevelle malibu"
+            },
+            {
+                "Year": 1982,
+                "Name": "chevrolet cavalier 2-door"
+            },
+            {
+                "Year": 1982,
+                "Name": "plymouth horizon miser"
+            },
+            {
+                "Year": 1970,
+                "Name": "plymouth fury iii"
+            },
+            {
+                "Year": 1979,
+                "Name": "pontiac phoenix"
+            },
+            {
+                "Year": 1971,
+                "Name": "amc matador"
+            },
+            {
+                "Year": 1970,
+                "Name": "ford f250"
+            },
+            {
+                "Year": 1973,
+                "Name": "ford maverick"
+            },
+            {
+                "Year": 1978,
+                "Name": "audi 5000"
+            },
+            {
+                "Year": 1971,
+                "Name": "amc hornet sportabout (sw)"
+            },
+            {
+                "Year": 1970,
+                "Name": "ford torino (sw)"
+            },
+            {
+                "Year": 1972,
+                "Name": "volkswagen 411 (sw)"
+            },
+            {
+                "Year": 1977,
+                "Name": "datsun f-10 hatchback"
+            },
+            {
+                "Year": 1973,
+                "Name": "toyota carina"
+            },
+            {
+                "Year": 1971,
+                "Name": "ford torino 500"
+            },
+            {
+                "Year": 1973,
+                "Name": "plymouth duster"
+            },
+            {
+                "Year": 1970,
+                "Name": "hi 1200d"
+            },
+            {
+                "Year": 1982,
+                "Name": "honda civic 1300"
+            },
+            {
+                "Year": 1977,
+                "Name": "oldsmobile cutlass supreme"
+            },
+            {
+                "Year": 1973,
+                "Name": "fiat 124 sport coupe"
+            },
+            {
+                "Year": 1976,
+                "Name": "plymouth valiant"
+            },
+            {
+                "Year": 1973,
+                "Name": "oldsmobile omega"
+            },
+            {
+                "Year": 1974,
+                "Name": "honda civic"
+            },
+            {
+                "Year": 1975,
+                "Name": "ford mustang ii"
+            },
+            {
+                "Year": 1973,
+                "Name": "plymouth custom suburb"
+            },
+            {
+                "Year": 1973,
+                "Name": "amc gremlin"
+            },
+            {
+                "Year": 1982,
+                "Name": "dodge rampage"
+            },
+            {
+                "Year": 1970,
+                "Name": "amc rebel sst (sw)"
+            },
+            {
+                "Year": 1973,
+                "Name": "buick electra 225 custom"
+            },
+            {
+                "Year": 1978,
+                "Name": "saab 99gle"
+            },
+            {
+                "Year": 1971,
+                "Name": "volkswagen model 111"
+            },
+            {
+                "Year": 1977,
+                "Name": "chevrolet chevette"
+            },
+            {
+                "Year": 1980,
+                "Name": "subaru dl"
+            },
+            {
+                "Year": 1975,
+                "Name": "amc gremlin"
+            },
+            {
+                "Year": 1982,
+                "Name": "subaru"
+            },
+            {
+                "Year": 1973,
+                "Name": "chevrolet impala"
+            },
+            {
+                "Year": 1972,
+                "Name": "datsun 510 (sw)"
+            },
+            {
+                "Year": 1982,
+                "Name": "mazda 626"
+            },
+            {
+                "Year": 1976,
+                "Name": "chevy c10"
+            },
+            {
+                "Year": 1980,
+                "Name": "mazda 626"
+            },
+            {
+                "Year": 1979,
+                "Name": "maxda glc deluxe"
+            },
+            {
+                "Year": 1972,
+                "Name": "plymouth fury iii"
+            },
+            {
+                "Year": 1970,
+                "Name": "chevrolet chevelle concours (sw)"
+            },
+            {
+                "Year": 1977,
+                "Name": "ford granada"
+            },
+            {
+                "Year": 1980,
+                "Name": "dodge aspen"
+            },
+            {
+                "Year": 1970,
+                "Name": "buick estate wagon (sw)"
+            },
+            {
+                "Year": 1977,
+                "Name": "toyota corolla liftback"
+            },
+            {
+                "Year": 1976,
+                "Name": "amc pacer d\\/l"
+            },
+            {
+                "Year": 1982,
+                "Name": "plymouth reliant"
+            },
+            {
+                "Year": 1980,
+                "Name": "toyota corolla"
+            },
+            {
+                "Year": 1973,
+                "Name": "ford gran torino"
+            },
+            {
+                "Year": 1977,
+                "Name": "honda Accelerationord cvcc"
+            },
+            {
+                "Year": 1982,
+                "Name": "oldsmobile cutlass ciera (diesel)"
+            },
+            {
+                "Year": 1978,
+                "Name": "datsun 200-sx"
+            },
+            {
+                "Year": 1982,
+                "Name": "honda civic"
+            },
+            {
+                "Year": 1975,
+                "Name": "ford pinto"
+            },
+            {
+                "Year": 1975,
+                "Name": "datsun 710"
+            },
+            {
+                "Year": 1971,
+                "Name": "amc gremlin"
+            },
+            {
+                "Year": 1982,
+                "Name": "toyota corolla"
+            },
+            {
+                "Year": 1977,
+                "Name": "renault 5 gtl"
+            },
+            {
+                "Year": 1979,
+                "Name": "fiat strada custom"
+            },
+            {
+                "Year": 1980,
+                "Name": "renault lecar deluxe"
+            },
+            {
+                "Year": 1976,
+                "Name": "volvo 245"
+            },
+            {
+                "Year": 1976,
+                "Name": "amc matador"
+            },
+            {
+                "Year": 1980,
+                "Name": "vw dasher (diesel)"
+            },
+            {
+                "Year": 1979,
+                "Name": "dodge colt hatchback custom"
+            },
+            {
+                "Year": 1978,
+                "Name": "mazda glc deluxe"
+            },
+            {
+                "Year": 1974,
+                "Name": "fiat 124 tc"
+            },
+            {
+                "Year": 1982,
+                "Name": "plymouth reliant"
+            },
+            {
+                "Year": 1970,
+                "Name": "ford galaxie 500"
+            },
+            {
+                "Year": 1975,
+                "Name": "amc matador"
+            },
+            {
+                "Year": 1976,
+                "Name": "mercedes-benz 280s"
+            },
+            {
+                "Year": 1978,
+                "Name": "oldsmobile cutlass salon brougham"
+            },
+            {
+                "Year": 1972,
+                "Name": "oldsmobile delta 88 royale"
+            },
+            {
+                "Year": 1979,
+                "Name": "mercury zephyr 6"
+            },
+            {
+                "Year": 1975,
+                "Name": "chevrolet nova"
+            },
+            {
+                "Year": 1976,
+                "Name": "dodge d100"
+            },
+            {
+                "Year": 1979,
+                "Name": "mercedes benz 300d"
+            },
+            {
+                "Year": 1980,
+                "Name": "vw rabbit"
+            },
+            {
+                "Year": 1975,
+                "Name": "ford pinto"
+            },
+            {
+                "Year": 1979,
+                "Name": "vw rabbit custom"
+            },
+            {
+                "Year": 1978,
+                "Name": "mercury zephyr"
+            },
+            {
+                "Year": 1975,
+                "Name": "ford ltd"
+            },
+            {
+                "Year": 1975,
+                "Name": "buick century"
+            },
+            {
+                "Year": 1980,
+                "Name": "mazda glc"
+            },
+            {
+                "Year": 1982,
+                "Name": "datsun 810 maxima"
+            },
+            {
+                "Year": 1978,
+                "Name": "dodge omni"
+            },
+            {
+                "Year": 1979,
+                "Name": "dodge aspen 6"
+            },
+            {
+                "Year": 1982,
+                "Name": "vw pickup"
+            },
+            {
+                "Year": 1977,
+                "Name": "bmw 320i"
+            },
+            {
+                "Year": 1982,
+                "Name": "ford fairmont futura"
+            },
+            {
+                "Year": 1973,
+                "Name": "chrysler new yorker brougham"
+            },
+            {
+                "Year": 1975,
+                "Name": "ford maverick"
+            },
+            {
+                "Year": 1974,
+                "Name": "audi fox"
+            },
+            {
+                "Year": 1973,
+                "Name": "oldsmobile vista cruiser"
+            },
+            {
+                "Year": 1970,
+                "Name": "peugeot 504"
+            },
+            {
+                "Year": 1977,
+                "Name": "ford thunderbird"
+            },
+            {
+                "Year": 1982,
+                "Name": "chevy s-10"
+            },
+            {
+                "Year": 1970,
+                "Name": "amc hornet"
+            },
+            {
+                "Year": 1977,
+                "Name": "subaru dl"
+            },
+            {
+                "Year": 1977,
+                "Name": "plymouth volare custom"
+            },
+            {
+                "Year": 1979,
+                "Name": "buick estate wagon (sw)"
+            },
+            {
+                "Year": 1974,
+                "Name": "plymouth duster"
+            },
+            {
+                "Year": 1976,
+                "Name": "volkswagen rabbit"
+            },
+            {
+                "Year": 1971,
+                "Name": "chevrolet impala"
+            },
+            {
+                "Year": 1978,
+                "Name": "dodge diplomat"
+            },
+            {
+                "Year": 1974,
+                "Name": "subaru"
+            },
+            {
+                "Year": 1970,
+                "Name": "dodge d200"
+            },
+            {
+                "Year": 1972,
+                "Name": "ford pinto runabout"
+            },
+            {
+                "Year": 1982,
+                "Name": "ford granada l"
+            },
+            {
+                "Year": 1978,
+                "Name": "amc concord"
+            },
+            {
+                "Year": 1978,
+                "Name": "peugeot 604sl"
+            },
+            {
+                "Year": 1980,
+                "Name": "mazda rx-7 gs"
+            },
+            {
+                "Year": 1974,
+                "Name": "chevrolet chevelle malibu classic"
+            },
+            {
+                "Year": 1973,
+                "Name": "dodge coronet custom"
+            },
+            {
+                "Year": 1971,
+                "Name": "pontiac firebird"
+            },
+            {
+                "Year": 1975,
+                "Name": "chevrolet monza 2+2"
+            },
+            {
+                "Year": 1973,
+                "Name": "mercury capri v6"
+            },
+            {
+                "Year": 1980,
+                "Name": "datsun 210"
+            },
+            {
+                "Year": 1974,
+                "Name": "opel manta"
+            },
+            {
+                "Year": 1980,
+                "Name": "ford fairmont"
+            },
+            {
+                "Year": 1980,
+                "Name": "datsun 280-zx"
+            },
+            {
+                "Year": 1973,
+                "Name": "fiat 128"
+            },
+            {
+                "Year": 1971,
+                "Name": "dodge monaco (sw)"
+            },
+            {
+                "Year": 1980,
+                "Name": "ford mustang cobra"
+            },
+            {
+                "Year": 1974,
+                "Name": "fiat 128"
+            },
+            {
+                "Year": 1979,
+                "Name": "chevrolet citation"
+            },
+            {
+                "Year": 1974,
+                "Name": "plymouth satellite sebring"
+            },
+            {
+                "Year": 1977,
+                "Name": "dodge monaco brougham"
+            },
+            {
+                "Year": 1979,
+                "Name": "chevrolet malibu classic (sw)"
+            },
+            {
+                "Year": 1977,
+                "Name": "plymouth arrow gs"
+            },
+            {
+                "Year": 1978,
+                "Name": "volkswagen rabbit custom diesel"
+            },
+            {
+                "Year": 1972,
+                "Name": "dodge colt (sw)"
+            },
+            {
+                "Year": 1973,
+                "Name": "pontiac grand prix"
+            }
+        ]
+    },
+    "mark": {
+        "type": "line"
+    },
+    "height": 200,
+    "width": 300,
+    "encoding": {
+        "x": {
+            "field": "Year",
+            "type": "ordinal"
+        },
+        "y": {
+            "aggregate": "count",
+            "type": "quantitative"
+        }
+    }
+}

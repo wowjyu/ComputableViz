@@ -1,0 +1,57 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple bar chart with embedded data.",
+  "data": {
+    "values": [
+      {
+        "Source": "Based on Book/Short Story",
+        "Gross": 923067947,
+        "Country": "Worldwide"
+      },
+      {
+        "Source": "Based on Comic/Graphic Novel",
+        "Gross": 411348924,
+        "Country": "Worldwide"
+      },
+      { "Source": "Based on Game", "Gross": 122133227, "Country": "Worldwide" },
+      { "Source": "Based on Play", "Gross": 51973029, "Country": "Worldwide" },
+      {
+        "Source": "Based on Real Life Events",
+        "Gross": 347100000,
+        "Country": "Worldwide"
+      },
+      {
+        "Source": "Based on Short Film",
+        "Gross": 168841459,
+        "Country": "Worldwide"
+      },
+      { "Source": "Based on TV", "Gross": 456481886, "Country": "Worldwide" },
+      {
+        "Source": "Original Screenplay",
+        "Gross": 817400878,
+        "Country": "Worldwide"
+      },
+      { "Source": "Remake", "Gross": 273814019, "Country": "Worldwide" },
+      {
+        "Source": "Traditional/Legend/Fairytale",
+        "Gross": 390500000,
+        "Country": "Worldwide"
+      }
+    ]
+  },
+  "mark": "bar",
+  "encoding": {
+    "y": {
+      "field": "Source",
+      "type": "ordinal",
+      "axis": { "labelAngle": 0 },
+      "sort": null
+    },
+    "x": {
+      "field": "Gross",
+      "type": "quantitative"
+    },
+    "color": { "field": "Source", "sort": null }
+  },
+  "config": {}
+}

@@ -1,0 +1,37 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple bar chart with embedded data.",
+  "width": "container",
+  "data": {
+    "values": [
+      {"country": "China", "share": 0.27, "year": 2019},
+      {"country": "US", "share": 0.11, "year": 2019},
+      {"country": "EU", "share": 0.064, "year": 2019},
+      {"country": "India", "share": 0.066, "year": 2019},
+      {"country": "Russia", "share": 0.031, "year": 2019},
+      {"country": "Japan", "share": 0.022, "year": 2019},
+      {"country": "Brazil", "share": 0.028, "year": 2019},
+      {"country": "Indonesia", "share": 0.034, "year": 2019}
+    ]
+  },
+  "encoding": {
+    "x": {"field": "country", "type": "nominal", "axis": {"labelAngle": 0}},
+    "y": {"field": "share", "type": "quantitative"},
+    "color": {"field": "country", "type": "nominal", "legend": null}
+  },
+  "layer": [
+    {"mark": "bar"},
+    {
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "baseline": "middle",
+        "dy": -10
+      },
+      "encoding": {
+        "text": {"field": "share", "type": "quantitative", "format": ".1%"}
+      }
+    }
+  ],
+  "config": {}
+}
